@@ -23,6 +23,7 @@ sudo apt -y install zsh;
 sudo apt -y install python-is-python3 python3-pip;
 sudo apt -y install openjdk-16-jdk openjdk-16-jre;
 sudo apt -y install gnome-tweaks;
+sudo apt -y install gparted;
 
 sudo npm i -g n;
 sudo n stable;

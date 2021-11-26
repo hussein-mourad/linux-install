@@ -2,14 +2,14 @@
 This script helps install apps that I need on a fresh install of linux
 
 ## Manual install links:
-mongodb: https://docs.mongodb.com/manual/installation/
-lsd: https://github.com/Peltoche/lsd 
-nerd fonts (3270.zip): https://github.com/ryanoasis/nerd-fonts/releases/tag/v2.1.0
-bat: https://github.com/sharkdp/bat 
-ros: http://wiki.ros.org/noetic/Installation/Ubuntu
-jetbrains editors: https://www.jetbrains.com/
-arduino ide: https://www.arduino.cc/en/software/
-touche: https://github.com/JoseExposito/touche
+- mongodb: https://docs.mongodb.com/manual/installation/
+- lsd: https://github.com/Peltoche/lsd 
+- nerd fonts (3270.zip): https://github.com/ryanoasis/nerd-fonts/releases/tag/v2.1.0
+- bat: https://github.com/sharkdp/bat 
+- ros: http://wiki.ros.org/noetic/Installation/Ubuntu
+- jetbrains editors: https://www.jetbrains.com/
+- arduino ide: https://www.arduino.cc/en/software/
+- touche: https://github.com/JoseExposito/touche
 
 
 ## Config

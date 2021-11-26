@@ -21,3 +21,9 @@ This script helps install apps that I need on a fresh install of linux
 - Git verified commits:  https://docs.github.com/en/enterprise-server@3.1/authentication/managing-commit-signature-verification/about-commit-signature-verification
 - Get dotfiles: https://github.com/Hussein-Mourad/config_files
 - cp gitconfig and .gnupg from old installation
+- install grub bootloader:
+```bash
+sudo apt update -y; sudo apt upgrade -y;sudo apt install -y grub-efi grub2-common grub-customizer;sudo grub-install; sudo cp /boot/grub/x86_64-efi/grub.efi /boot/efi/EFI/pop/grubx64.efi;
+```
+- Add this to grub-customizer > change environment > OUTPUT_FILE=/boot/efi/EFI/pop/grub.cfg
+

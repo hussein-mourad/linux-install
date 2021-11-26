@@ -10,6 +10,7 @@ This script helps install apps that I need on a fresh install of linux
 - jetbrains editors: https://www.jetbrains.com/
 - arduino ide: https://www.arduino.cc/en/software/
 - touche: https://github.com/JoseExposito/touche
+- google chrome: https://www.google.com/chrome/
 
 
 ## Config

@@ -83,6 +83,6 @@ sudo systemctl enable mongod;
 ## sudo service mongod stop;
 
 ## deb packages
-sudo dpkg --install apps/bat_0.18.3_amd64.deb
-sudo dpkg --install apps/lsd_0.20.1_amd64.deb
+sudo dpkg --install ./apps/bat_0.18.3_amd64.deb
+sudo dpkg --install ./apps/lsd_0.20.1_amd64.deb
 

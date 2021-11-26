@@ -1,0 +1,19 @@
+home folder super+f
+calculator super+c
+terminal super+enter super+t
+browser super+b
+settings super+i
+
+desktop super+d
+lockscreen super+l
+
+nav workspace up ctrl+super+up
+nav workspace down ctrl+super+down
+move window workscape up alt+super+up
+move window workscape down alt+super+down
+
+maximize window super+m
+
+vscode super+v
+xkill ctrl+escape
+system monitro shift+ctrl+escape

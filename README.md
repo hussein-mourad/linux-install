@@ -13,6 +13,7 @@ This script helps install apps that I need on a fresh install of linux
 - google chrome: https://www.google.com/chrome/
 - vscode
 - atom 
+- latex: https://linuxconfig.org/how-to-install-latex-on-ubuntu-20-04-focal-fossa-linux
 
 
 ## Config

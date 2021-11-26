@@ -24,6 +24,8 @@ sudo apt -y install python-is-python3 python3-pip;
 sudo apt -y install openjdk-16-jdk openjdk-16-jre;
 sudo apt -y install gnome-tweaks;
 sudo apt -y install gparted;
+sudo apt -y install peek;
+sudo apt -y install simplescreenrecorder;
 
 sudo npm i -g n;
 sudo n stable;

@@ -60,6 +60,7 @@ catkin_make;
 echo "source ~/catkin_ws/devel/setup.zsh" >> ~/.zshrc;
 cd ~/;
 echo $ROS_PACKAGE_PATH;
+sudo apt -y install ros-noetic-rosserial-arduino ros-noetic-rosserial
 
 # mongodb
 sudo apt -y install gnupg;

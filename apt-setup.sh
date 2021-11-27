@@ -84,8 +84,9 @@ sudo systemctl enable mongod;
 ## sudo systemctl restart mongod;
 ## sudo service mongod stop;
 
-## deb packages
-current_dir=`dirname $0`
-sudo dpkg -i $current_dir/apps/bat_0.18.3_amd64.deb
-sudo dpkg -i $current_dir/apps/lsd_0.20.1_amd64.deb
+# touchegg (download gnome extensions x11 gestures)
+sudo add-apt-repository ppa:touchegg/stable;
+sudo apt update;
+sudo apt install touchegg;
+
 

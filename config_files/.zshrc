@@ -14,7 +14,6 @@ export NVM_DIR="$HOME/.nvm"
 # Path to your oh-my-zsh installation.
 export ZSH="/home/hussein/.oh-my-zsh"
 
-
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -113,6 +112,11 @@ source $ZSH/oh-my-zsh.sh
   alias i3c="vim ~/.config/i3/config"
   alias i3blocksc="vim ~/.config/i3/i3blocks.conf"
   alias vimc="vim ~/.vimrc"
+  alias files="io.elementary.files"
+  alias ls="lsd"
+  alias lt="lsd --tree"
+  alias cat="bat"
+
   alias uni="cd /mnt/f/College/Term5/"
   alias webdev="cd /mnt/d/vscode/webdev-challenges/Fullstack/"
   alias java16="export JAVA_HOME=/home/hussein/Downloads/jdk-16.0.1/bin/;export PATH=$PATH:$JAVA_HOME"
@@ -121,11 +125,10 @@ source $ZSH/oh-my-zsh.sh
   alias clp="cd /mnt/d/ClionProjects"
   alias wsp="cd /mnt/d/WebstormProjects"
   alias ideap="cd /mnt/d/IdeaProjects" 
-  alias files="io.elementary.files"
-  alias ls="lsd"
-  alias lt="lsd --tree"
-  alias cat="bat"
+  alias backup="cd $HOME/Documents/fresh_linux_install" 
 
+# PATH alias
+export uni='/mnt/f/College/Term5'
 
 source /opt/ros/noetic/setup.zsh
 source ~/catkin_ws/devel/setup.zsh

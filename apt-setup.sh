@@ -27,6 +27,7 @@ sudo apt -y install gnome-tweaks;
 sudo apt -y install gparted;
 sudo apt -y install peek;
 sudo apt -y install simplescreenrecorder;
+sudo apt -y exfat-utils exfat-fuse
 
 sudo npm i -g n;
 sudo n stable;
@@ -85,8 +86,9 @@ sudo systemctl enable mongod;
 ## sudo service mongod stop;
 
 # touchegg (download gnome extensions x11 gestures)
-sudo add-apt-repository ppa:touchegg/stable;
+sudo add-apt-repository ppa:touchegg/stable -y;
 sudo apt update;
-sudo apt install touchegg;
+sudo apt -y install touchegg;
 
-
+# fonts
+sudo apt -y  install ttf-mscorefonts-installer

@@ -1,0 +1,46 @@
+# Spanish translations for PACKAGE package.
+# Copyright (C) 2020 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# fer <fernancp444@gmail.com>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-31 22:53+0100\n"
+"PO-Revision-Date: 2020-12-31 22:53+0100\n"
+"Last-Translator: fer <fernancp444@gmail.com>\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: extension.js:107
+msgid "Simple Monitor"
+msgstr ""
+
+#: extension.js:166 extension.js:167
+msgid "Process"
+msgstr "Proceso"
+
+#: extension.js:168
+msgid "Cpu%"
+msgstr ""
+
+#: extension.js:169
+msgid "Mem%"
+msgstr ""
+
+#: extension.js:173
+msgid "Settings"
+msgstr "Preferencias"
+
+#: prefs.js:29
+msgid "Show memory percentage"
+msgstr "Mostrar memoria en porcentaje"
+
+#: prefs.js:31
+msgid "Update every (Sec)"
+msgstr "Actualizar cada (Seg)"

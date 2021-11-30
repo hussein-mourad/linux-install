@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome-shell-pomodoro">
+  <enum id="State">
+    <value value="0" nick="null"/>
+    <value value="1" nick="pomodoro"/>
+    <value value="2" nick="pause"/>
+    <value value="3" nick="idle"/>
+  </enum>
+
+  <schema path="/org/gnome/shell/extensions/pomodoro/" id="org.gnome.shell.extensions.pomodoro">
+    <key type="as" name="toggle-pomodoro-timer">
+      <default><![CDATA[["<Ctrl><Alt>p"]]]></default>
+      <summary>Timer toggle key</summary>
+      <description>Key to toggle the timer.</description>
+    </key>
+    <key type="i" name="pomodoro-time">
+      <default>1500</default>
+      <range min="1" max="3600"/>
+      <summary>Pomodoro duration</summary>
+      <description>Time in seconds you are supposed to be working.</description>
+    </key>
+    <key type="i" name="short-pause-time">
+      <default>300</default>
+      <range min="1" max="3600"/>
+      <summary>Short pause duration</summary>
+      <description>Time in seconds you are supposed to have a short break.</description>
+    </key>
+    <key type="i" name="long-pause-time">
+      <default>900</default>
+      <range min="1" max="3600"/>
+      <summary>Long pause duration</summary>
+      <description>Time in seconds you are supposed to have a longer break.</description>
+    </key>
+    <key type="b" name="show-notification-dialogs">
+      <default>true</default>
+      <summary>Show dialog notifications during breaks</summary>
+      <description>Whether to show a notification dialog when pause starts.</description>
+    </key>
+    <key type="b" name="away-from-desk">
+      <default>false</default>
+      <summary>Disable flexible breaks</summary>
+      <description>Whether you are not using a computer to work.</description>
+    </key>
+    <key type="b" name="change-presence-status">
+      <default>true</default>
+      <summary>Change user presence status to busy</summary>
+      <description>Whether to change user and IM presence to busy.</description>
+    </key>
+    <key type="b" name="play-sounds">
+      <default>true</default>
+      <summary>Use notification sound</summary>
+      <description>Whether to play a sound to notify of events.</description>
+    </key>
+    <key type="s" name="sound-uri">
+      <default>""</default>
+      <summary>Notification sound file</summary>
+      <description>Sound file to play on pomodoro start or end.</description>
+    </key>
+    <key type="i" name="saved-session-count">
+      <default>0</default>
+      <summary>Number of completed sessions</summary>
+      <description/>
+    </key>
+    <key type="i" name="saved-session-part-count">
+      <default>0</default>
+      <summary>Number of completed sessions since long break</summary>
+      <description/>
+    </key>
+    <key name="saved-state" enum="State">
+      <default>"null"</default>
+      <summary>Saved timer state</summary>
+      <description/>
+    </key>
+    <key type="s" name="saved-state-date">
+      <default>""</default>
+      <summary>Time of saved state</summary>
+      <description/>
+    </key>
+  </schema>
+</schemalist>

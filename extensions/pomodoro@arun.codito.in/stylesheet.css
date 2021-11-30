@@ -1,0 +1,55 @@
+/**
+ * CSS Style for Gnome shell pomodoro extension
+ * Copyright (C) 2011,2012 Gnome-shell pomodoro extension contributors
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+.extension-pomodoro-label {
+}
+
+.extension-pomodoro-menu.popup-menu {
+    min-width: 300px;
+}
+
+.extension-pomodoro-lightbox {
+    background-color: black;
+}
+
+.extension-pomodoro-dialog {
+    padding-bottom: 12px;
+}
+
+.extension-pomodoro-dialog-main-layout {
+}
+
+.extension-pomodoro-dialog-message-layout {
+    spacing: 2px;
+}
+
+.extension-pomodoro-dialog-timer {
+    font-size: 68pt;
+    font-weight: normal;
+    font-family: Droid Sans, Droid Sans Mono, DejaVu Sans, Bitstream Vera Sans, monospace, sans-serif;
+    text-align: center;
+    text-shadow: 0.0px 5.0px 8.0px rgba(0, 0, 0, 0.10);
+    color: white;
+}
+
+.extension-pomodoro-dialog-description {
+    font-size: 12pt;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 0.0px 1.0px 2.0px rgba(0, 0, 0, 0.35);
+    color: white;
+}

@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-04 01:56+0200\n"
+"PO-Revision-Date: 2018-05-13 11:17+0200\n"
+"Last-Translator: Albano Battistella<albano_battistella@hotmail.com>\n"
+"Language-Team:italian\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#: emoji-selector@maestroschan.fr/extension.js
+msgid "Type here to search…"
+msgstr "Digita qui per effettuare una ricerca…"
+
+#: emoji-selector@maestroschan.fr/extension.js
+#: emoji-selector@maestroschan.fr/prefs.ui
+msgid "Emoji Selector"
+msgstr "Emoji Selector"
+
+#: emoji-selector@maestroschan.fr/extension.js
+msgid "Smileys & Body"
+msgstr "Emoticon & Volti"
+
+#: emoji-selector@maestroschan.fr/extension.js
+msgid "Peoples & Clothing"
+msgstr "Persone & Abiti"
+
+#: emoji-selector@maestroschan.fr/extension.js
+msgid "Animals & Nature"
+msgstr "Animali & Natura"
+
+#: emoji-selector@maestroschan.fr/extension.js
+msgid "Food & Drink"
+msgstr "Cibo & Bevande"
+
+#: emoji-selector@maestroschan.fr/extension.js
+msgid "Travel & Places"
+msgstr "Viaggi & Luoghi"
+
+#: emoji-selector@maestroschan.fr/extension.js
+msgid "Activities & Sports"
+msgstr "Attività & Sport"
+
+#: emoji-selector@maestroschan.fr/extension.js
+msgid "Objects"
+msgstr "Oggetti"
+
+#: emoji-selector@maestroschan.fr/extension.js
+msgid "Symbols"
+msgstr "Simboli"
+
+#: emoji-selector@maestroschan.fr/extension.js
+msgid "Flags"
+msgstr "Bandiere"
+
+#: emoji-selector@maestroschan.fr/prefs.js
+msgid "Modifications will be effective after reloading the extension."
+msgstr "Le modifiche diventeranno effettive dopo aver ricaricato l'estensione."
+
+#: emoji-selector@maestroschan.fr/prefs.js
+msgid "From top to bottom"
+msgstr "Dall'alto verso il basso"
+
+#: emoji-selector@maestroschan.fr/prefs.js
+msgid "From bottom to top"
+msgstr "Dal basso verso l'alto"
+
+#: emoji-selector@maestroschan.fr/prefs.js
+msgid ""
+"Displaying the interface from the bottom is better if you use a bottom panel "
+"instead of the default top bar."
+msgstr ""
+"È meglio visualizzare l'interfaccia dal basso se utilizzi un pannello inferiore"
+"invece della barra superiore predefinita."
+
+#: emoji-selector@maestroschan.fr/prefs.js
+#, javascript-format
+msgid "The default value is %s"
+msgstr "Il valore predefinito è %s"
+
+#: emoji-selector@maestroschan.fr/prefs.js
+msgid "Report bugs or ideas"
+msgstr "Segnala bug o idee"
+
+#: emoji-selector@maestroschan.fr/prefs.ui
+msgid "General layout"
+msgstr "Layout generale"
+
+#: emoji-selector@maestroschan.fr/prefs.ui
+msgid "Number of emojis per line"
+msgstr "Numero di emoji per riga"
+
+#: emoji-selector@maestroschan.fr/prefs.ui
+msgid "Size of emojis (px)"
+msgstr "Dimensione degli emoji (px)"
+
+#: emoji-selector@maestroschan.fr/prefs.ui
+msgid "Use a keyboard shortcut to toggle the menu"
+msgstr "Usa una scorciatoia da tastiera per mostrare il menu"
+
+#: emoji-selector@maestroschan.fr/prefs.ui
+msgid "Help"
+msgstr "Aiuto"
+
+#: emoji-selector@maestroschan.fr/prefs.ui
+msgid "Apply"
+msgstr "Applica"
+
+#: emoji-selector@maestroschan.fr/prefs.ui
+msgid ""
+"If you access the menu with the keyboard shortcut, you don't need to always "
+"display the icon."
+msgstr ""
+"Se accedi al menu con la scorciatoia da tastiera, non devi sempre"
+"visualizzare l'icona."
+
+#: emoji-selector@maestroschan.fr/prefs.ui
+msgid "Always show the icon"
+msgstr "Mostra sempre l'icona"
+
+#: emoji-selector@maestroschan.fr/prefs.ui
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: emoji-selector@maestroschan.fr/prefs.ui
+msgid ""
+"This extension provides a parametrable popup menu displaying most emojis, "
+"clicking on an emoji copies it to the clipboard."
+msgstr ""
+"Questa estensione fornisce un menu popup parametrabile che mostra la maggior parte degli emoji",
+"facendo clic su un'emoji la copia negli appunti."
+
+#: emoji-selector@maestroschan.fr/prefs.ui
+msgid "Author:"
+msgstr "Autore:"
+
+#: emoji-selector@maestroschan.fr/prefs.ui
+msgid "Tranlators:"
+msgstr "Traduttori:"
+
+#: emoji-selector@maestroschan.fr/prefs.ui
+msgid "translator-credits"
+msgstr "Albano Battistella"
+
+#: emoji-selector@maestroschan.fr/prefs.ui
+msgid "About"
+msgstr "Informazioni"
+
+#: emoji-selector@maestroschan.fr/prefs.ui
+msgid "List of valid key names"
+msgstr "Lista dei nomi chiave validi"
+
+#. Context for translation: modifier keys are ctrl/shift/super/alt
+#: emoji-selector@maestroschan.fr/prefs.ui
+msgid "Modifier keys must be between chevrons"
+msgstr ""
+
+#: emoji-selector@maestroschan.fr/prefs.ui
+msgid "Don't use a keyboard shortcut that already exists."
+msgstr "Non utilizzare una scorciatoia da tastiera già esistente."
+
+#: emoji-selector@maestroschan.fr/emojiOptionsBar.js
+msgid "No skin tone"
+msgstr "Nessun tono della pelle"
+
+#: emoji-selector@maestroschan.fr/emojiOptionsBar.js
+msgid "Light skin tone"
+msgstr "Tonalità della pelle chiara"
+
+#: emoji-selector@maestroschan.fr/emojiOptionsBar.js
+msgid "Medium light skin tone"
+msgstr "Tono della pelle medio-leggero"
+
+#: emoji-selector@maestroschan.fr/emojiOptionsBar.js
+msgid "Medium skin tone"
+msgstr "Tonalità della pelle media"
+
+#: emoji-selector@maestroschan.fr/emojiOptionsBar.js
+msgid "Medium dark skin tone"
+msgstr "Tono della pelle medio scuro"
+
+#: emoji-selector@maestroschan.fr/emojiOptionsBar.js
+msgid "Dark skin tone"
+msgstr "Tonalità della pelle scura"
+
+#: emoji-selector@maestroschan.fr/emojiOptionsBar.js
+msgid "Women"
+msgstr "Donna"
+
+#: emoji-selector@maestroschan.fr/emojiOptionsBar.js
+msgid "Men"
+msgstr "Uomo"
+
+#~ msgid "Default value is:"
+#~ msgstr "Il valore di default è:"
+
+#~ msgid "Use dark font"
+#~ msgstr "Usa un font scuro"
+
+#~ msgid "Layout"
+#~ msgstr "Layout"
+
+#~ msgid "Appearance"
+#~ msgstr "Aspetto"
+
+#~ msgid "Keybinding"
+#~ msgstr "Scorciatoie da tastiera"

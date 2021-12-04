@@ -82,12 +82,14 @@ bzr						install
 ca-certificates					install
 ca-certificates-java				install
 cabextract					install
-caneda						install
 catdoc						install
 chafa						install
 cheese						install
 cheese-common					install
 chrome-gnome-shell				install
+chromium					install
+chromium-common					install
+chromium-sandbox				install
 cmake						install
 cmake-data					install
 code						install
@@ -166,6 +168,7 @@ dpkg-dev					install
 duplicity					install
 dvdauthor					install
 dvgrab						install
+dvisvgm						install
 dwz						install
 e2fsprogs					install
 ecryptfs-utils					install
@@ -192,6 +195,8 @@ ffmpeg						install
 fig2dev						install
 file						install
 file-roller					install
+filezilla					install
+filezilla-common				install
 finalrd						install
 findutils					install
 firefox						install
@@ -224,6 +229,7 @@ fonts-freefont-ttf				install
 fonts-lato					install
 fonts-liberation				install
 fonts-liberation2				install
+fonts-lmodern					install
 fonts-lyx					install
 fonts-noto-cjk					install
 fonts-noto-cjk-extra				install
@@ -232,6 +238,7 @@ fonts-noto-core					install
 fonts-noto-mono					install
 fonts-noto-ui-core				install
 fonts-opensymbol				install
+fonts-texgyre					install
 fonts-ubuntu					install
 fonts-urw-base35				install
 foomatic-db-compressed-ppds			install
@@ -651,6 +658,7 @@ libann0						install
 libao-common					install
 libao4:amd64					install
 libaom0:amd64					install
+libapache-pom-java				install
 libapparmor1:amd64				install
 libappindicator1				install
 libappindicator3-1				install
@@ -923,7 +931,9 @@ libcolord2:amd64				install
 libcolorhug2:amd64				install
 libcom-err2:amd64				install
 libcommons-collections3-java			install
+libcommons-logging-java				install
 libcommons-math-java				install
+libcommons-parent-java				install
 libcompizconfig0:amd64				deinstall
 libconsole-bridge-dev:amd64			install
 libconsole-bridge0.4:amd64			install
@@ -1088,6 +1098,7 @@ libfile-fcntllock-perl				install
 libfile-listing-perl				install
 libfile-mimeinfo-perl				install
 libfile-stripnondeterminism-perl		install
+libfilezilla0					install
 libfirmware-manager				install
 libflac8:amd64					install
 libflann-dev:amd64				install
@@ -1104,6 +1115,7 @@ libfltk1.3-dev					install
 libfolks-eds25:amd64				install
 libfolks25:amd64				install
 libfont-afm-perl				install
+libfontbox-java					install
 libfontconfig1:amd64				install
 libfontconfig1-dev:amd64			install
 libfontembed1:amd64				install
@@ -1612,6 +1624,8 @@ libltdl-dev:amd64				install
 libltdl7:amd64					install
 liblua5.2-0:amd64				install
 liblua5.3-0:amd64				install
+libluajit-5.1-2:amd64				install
+libluajit-5.1-common				install
 liblvm2cmd2.03:amd64				install
 liblwp-mediatypes-perl				install
 liblwp-protocol-https-perl			install
@@ -1662,6 +1676,7 @@ libmpeg2-4:amd64				install
 libmpfr6:amd64					install
 libmpg123-0:amd64				install
 libmpx2:amd64					install
+libmsgpackc2:amd64				install
 libmspack0:amd64				install
 libmspub-0.1-1:amd64				install
 libmtdev1:amd64					install
@@ -1884,6 +1899,7 @@ libpcre3-dev:amd64				install
 libpcre32-3:amd64				install
 libpcrecpp0v5:amd64				install
 libpcsclite1:amd64				install
+libpdfbox-java					install
 libpeas-1.0-0:amd64				install
 libpeas-common					install
 libperl5.30:amd64				install
@@ -1959,6 +1975,7 @@ libpsl5:amd64					install
 libpsm-infinipath1				install
 libpsm2-2					install
 libpstoedit0c2a:amd64				install
+libptexenc1:amd64				install
 libpthread-stubs0-dev:amd64			install
 libpugixml1v5:amd64				install
 libpulse-mainloop-glib0:amd64			install
@@ -2043,6 +2060,7 @@ libraw1394-tools				install
 libraw19:amd64					install
 librdf0:amd64					install
 librdmacm1:amd64				install
+libre2-5:amd64					install
 libreadline5:amd64				install
 libreadline8:amd64				install
 libreoffice-base-core				install
@@ -2215,9 +2233,13 @@ libtbb2:amd64					install
 libtcl8.6:amd64					install
 libtdb1:amd64					install
 libteamdctl0:amd64				install
+libteckit0:amd64				install
 libtepl-4-0:amd64				install
+libtermkey1:amd64				install
 libtesseract4:amd64				install
 libtevent0:amd64				install
+libtexlua53:amd64				install
+libtexluajit2:amd64				install
 libtext-charwidth-perl				install
 libtext-iconv-perl				install
 libtext-unidecode-perl				install
@@ -2257,6 +2279,7 @@ libuchardet0:amd64				install
 libudev1:amd64					install
 libudisks2-0:amd64				install
 libumfpack5:amd64				install
+libunibilium4:amd64				install
 libunistring2:amd64				install
 libunistring2:i386				install
 libunity-protocol-private0:amd64		install
@@ -2314,6 +2337,7 @@ libvpx6:amd64					install
 libvte-2.91-0:amd64				install
 libvte-2.91-common				install
 libvted-3-0					install
+libvterm0:amd64					install
 libvtk6.3					install
 libvtk7-dev					install
 libvtk7-java					install
@@ -2505,14 +2529,19 @@ linux-firmware					install
 linux-generic					install
 linux-headers-5.13.0-7620			install
 linux-headers-5.13.0-7620-generic		install
+linux-headers-5.15.5-76051505			install
+linux-headers-5.15.5-76051505-generic		install
 linux-headers-generic				install
 linux-image-5.13.0-7620-generic			install
+linux-image-5.15.5-76051505-generic		install
 linux-image-generic				install
 linux-libc-dev:amd64				install
 linux-modules-5.13.0-7620-generic		install
+linux-modules-5.15.5-76051505-generic		install
 linux-modules-extra-5.13.0-7620-generic		install
 linux-sound-base				install
 linux-system76					install
+lmodern						install
 locales						install
 login						install
 logrotate					install
@@ -2528,8 +2557,11 @@ lua-bitop:amd64					install
 lua-expat:amd64					install
 lua-json					install
 lua-lpeg:amd64					install
+lua-luv:amd64					install
 lua-socket:amd64				install
 lvm2						install
+lynx						install
+lynx-common					install
 lz4						install
 m4						install
 make						install
@@ -2543,6 +2575,7 @@ media-player-info				install
 melt						install
 mercurial					install
 mercurial-common				install
+mesa-utils					install
 mesa-va-drivers:amd64				install
 mesa-vdpau-drivers:amd64			install
 mesa-vulkan-drivers:amd64			install
@@ -2588,6 +2621,8 @@ nautilus-sendto					install
 ncurses-base					install
 ncurses-bin					install
 neofetch					install
+neovim						install
+neovim-runtime					install
 net-tools					install
 netbase						install
 netcat-openbsd					install
@@ -2969,6 +3004,7 @@ popularity-contest				install
 powermgmt-base					install
 ppp						install
 pptp-linux					install
+preview-latex-style				install
 printer-driver-all				install
 printer-driver-brlaser				install
 printer-driver-c2050				install
@@ -3071,6 +3107,7 @@ python3-github					install
 python3-gitlab					install
 python3-gnupg					install
 python3-gpg					install
+python3-greenlet				install
 python3-hamcrest				install
 python3-httplib2				install
 python3-hyperlink				install
@@ -3093,7 +3130,9 @@ python3-matplotlib				install
 python3-minimal					install
 python3-monotonic				install
 python3-mpi4py					install
+python3-msgpack					install
 python3-nacl					install
+python3-neovim					install
 python3-netifaces				install
 python3-nose					install
 python3-notify2					install
@@ -3122,6 +3161,7 @@ python3-pydot					install
 python3-pygments				install
 python3-pykdl:amd64				install
 python3-pymacaroons				install
+python3-pynvim					install
 python3-pyparsing				install
 python3-pyqrcode				install
 python3-pyqt5					install
@@ -3524,6 +3564,7 @@ syslinux-legacy					install
 system-config-printer				install
 system-config-printer-common			install
 system-config-printer-udev			install
+system-monitoring-center			install
 system-tools-backends				install
 system76-acpi-dkms				install
 system76-dkms					install
@@ -3533,6 +3574,7 @@ systemd						install
 systemd-sysv					install
 systemd-timesyncd				install
 sysvinit-utils					install
+t1utils						install
 tango-icon-theme				install
 tar						install
 tcl						install
@@ -3545,12 +3587,22 @@ teams						install
 tegaki-zinnia-japanese				install
 telnet						install
 tex-common					install
+tex-gyre					install
 texinfo						install
+texlive-base					install
+texlive-binaries				install
+texlive-fonts-recommended			install
+texlive-latex-base				install
+texlive-latex-extra				install
+texlive-latex-recommended			install
+texlive-pictures				install
+texlive-plain-generic				install
 thermald					install
 thin-provisioning-tools				install
 tilix						install
 tilix-common					install
 time						install
+tipa						install
 tk						install
 tk-dev:amd64					install
 tk8.6						install
@@ -3658,6 +3710,7 @@ x11proto-xinerama-dev				install
 xauth						install
 xbitmaps					install
 xbrlapi						install
+xclip						install
 xdg-dbus-proxy					install
 xdg-desktop-portal				install
 xdg-desktop-portal-gtk				install

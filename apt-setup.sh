@@ -27,8 +27,14 @@ sudo apt -y install gnome-tweaks;
 sudo apt -y install gparted;
 sudo apt -y install peek;
 sudo apt -y install simplescreenrecorder;
-sudo apt -y exfat-utils exfat-fuse
+sudo apt -y install exfat-utils exfat-fuse;
+sudo apt -y install texlive-latex-extra
+# sudo apt -y install texlive-base;
+# sudo apt -y install texlive-latex-recommended;
+# sudo apt -y install texlive
+# sudo apt -y install texlive-full
 
+sudo npm i -g npm;
 sudo npm i -g n;
 sudo n stable;
 sudo npm i -g npkill typescript prettier 

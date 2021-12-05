@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" enable-background="new"><defs><filter id="a" color-interpolation-filters="sRGB"><feBlend in2="BackgroundImage" mode="darken"/></filter></defs><path d="M2 1v7l7 7 7-7-7-7zm1 1H8.562l6 6L9 13.563l-6-6V4zm2 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" fill="#dedede"/><path d="M1.883 3.988a2.507 2.507 0 0 1 1.126-.737c.584-.187 1.248-.118 1.849.302a.52.52 0 0 1 .128.7.52.52 0 0 1-.702.12c-.368-.258-.675-.264-.993-.162-.319.102-.627.372-.84.71-.213.337-.324.73-.277 1.103.047.372.21.719.653 1.029C4.6 8.295 4.862 10.265 3.947 11.5c-.51.689-1.358 1.11-2.365 1.09l-.497-1.034c.966.217 1.674-.132 2.061-.655.572-.773.532-2.032-.893-3.03a2.503 2.503 0 0 1-1.07-1.74c-.08-.637.107-1.245.43-1.759.082-.128.17-.27.27-.384zM.269 11.251c.081.04.162.06.24.092l.545 1.183c-.066-.01-.14-.016-.207-.03zm.412.174c.086.032.176.044.258.067l.505 1.078c-.077-.004-.148.004-.226-.005z" style="line-height:normal;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration-line:none;text-transform:none;block-progression:tb;marker:none" color="#000" font-weight="400" font-family="Sans" overflow="visible" fill="#dedede" enable-background="accumulate"/></svg>
+<svg version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+        color:#dedede;
+      }</style>
+ </defs>
+ <path d="m7.9941 1-5.9688 0.03125c-0.5477 0.003254-0.99089 0.44645-0.99414 0.99414l-0.03125 5.9688c-0.0013695 0.28107 0.1156 0.54974 0.32227 0.74023l6.5 6c0.39424 0.3637 1.0052 0.35164 1.3848-0.02734l5.5-5.5c0.37898-0.37957 0.39105-0.99053 0.02734-1.3848l-6-6.5c-0.19049-0.20667-0.45916-0.32364-0.74023-0.32227zm0.0058594 1 6 6.5-5.5 5.5-6.5-6 0.03125-5.9688zm-2.5 2c-0.828 0-1.5 0.672-1.5 1.5s0.672 1.5 1.5 1.5 1.5-0.672 1.5-1.5-0.672-1.5-1.5-1.5z" class="ColorScheme-Text" fill="currentColor"/>
+</svg>

@@ -15,6 +15,7 @@ apg						install
 app-install-data				install
 app-install-data-partner			install
 apparmor					install
+appimagelauncher				install
 appmenu-gtk-module-common			install
 appmenu-gtk2-module:amd64			install
 appmenu-gtk3-module:amd64			install
@@ -2580,6 +2581,7 @@ mesa-va-drivers:amd64				install
 mesa-vdpau-drivers:amd64			install
 mesa-vulkan-drivers:amd64			install
 mesa-vulkan-drivers:i386			install
+microsoft-edge-beta				install
 mime-support					install
 mobile-broadband-provider-info			install
 modemmanager					install

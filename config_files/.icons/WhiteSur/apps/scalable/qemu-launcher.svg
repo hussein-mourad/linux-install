@@ -1,28 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="64" height="64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
- <metadata>
-  <rdf:RDF>
-   <cc:Work rdf:about="">
-    <dc:format>image/svg+xml</dc:format>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:title/>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
+<svg width="64" height="64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <linearGradient id="b" x1="399.57" x2="399.57" y1="545.8" y2="517.8" gradientTransform="matrix(2.1429 0 0 2.1429 -826.36 -1107.5)" gradientUnits="userSpaceOnUse">
    <stop stop-color="#3889e9" offset="0"/>
    <stop stop-color="#5ea5fb" offset="1"/>
   </linearGradient>
   <linearGradient id="linearGradient865" x1="7.9373" x2="7.9373" y1="15.274" y2="1.5247" gradientTransform="scale(3.7796)" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#242424" offset="0"/>
+   <stop stop-color="#2e2e2e" offset="0"/>
    <stop stop-color="#4e4e4e" offset="1"/>
   </linearGradient>
   <linearGradient id="linearGradient894" x1="30" x2="30" y1="15" y2="50" gradientUnits="userSpaceOnUse">
    <stop stop-color="#ffcf60" offset="0"/>
    <stop stop-color="#ff4c00" offset="1"/>
   </linearGradient>
-  <filter id="filter908" x="-.17277" y="-.17379" width="1.3455" height="1.3476" color-interpolation-filters="sRGB">
+  <filter id="filter908" x="-.17277" y="-.17415" width="1.3455" height="1.3483" color-interpolation-filters="sRGB">
    <feGaussianBlur stdDeviation="2.7355531"/>
   </filter>
  </defs>

@@ -1,6 +1,6 @@
 #! /bin/bash
 # xmodmap -e "keycode 66 = Escape"; xmodmap -e "keycode 9 = Caps_Lock";
-# setxkdmap -option caps:swapescape
+# setxkbmap -option caps:swapescape
 sudo apt install -y curl wget;
 
 # git (latest)

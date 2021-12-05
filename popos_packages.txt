@@ -214,6 +214,8 @@ firefox-locale-zh-hans				install
 firefox-locale-zh-hant				install
 firmware-manager-notify				install
 firmware-manager-shared				install
+fish						install
+fish-common					install
 flatpak						install
 fltk1.3-doc					install
 fluid						install
@@ -3545,6 +3547,7 @@ simple-scan					install
 simplescreenrecorder				install
 simulide					install
 sip-dev						install
+snapd						install
 software-properties-common			install
 software-properties-gtk				install
 sonnet-plugins					install
@@ -3553,6 +3556,7 @@ sound-theme-freedesktop				install
 speech-dispatcher				install
 speech-dispatcher-audio-plugins:amd64		install
 speech-dispatcher-espeak-ng			install
+squashfs-tools					install
 sshfs						install
 ssl-cert					install
 strace						install
@@ -3730,6 +3734,7 @@ xml-core					install
 xorg						install
 xorg-docs-core					install
 xorg-sgml-doctools				install
+xsel						install
 xserver-common					install
 xserver-xephyr					install
 xserver-xorg					install

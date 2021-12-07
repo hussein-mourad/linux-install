@@ -33,6 +33,10 @@ sudo apt -y install texlive-latex-extra
 # sudo apt -y install texlive-latex-recommended;
 # sudo apt -y install texlive
 # sudo apt -y install texlive-full
+sudo apt -y install google-chrome-stable;
+sudo apt -y install microsoft-edge-stable;
+sudo apt -y install firefox;
+
 
 sudo npm i -g npm;
 sudo npm i -g n;

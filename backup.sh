@@ -1,6 +1,6 @@
 #! /bin/bash
 
-DEST=$HOME/Documents/fresh_linux_install
+DEST=/mnt/f/fresh_linux_install
 
 rm -rf $DEST/extensions
 rm -rf $DEST/sources.list.d/
@@ -16,6 +16,6 @@ cp -r /etc/apt/sources.list.d/ $DEST/
 cp /etc/apt/sources.list  $DEST/sources.list
 cp /etc/fstab $DEST/fstab
 cp -r $HOME/.zshrc $HOME/.vimrc $HOME/.vim/ $HOME/.themes/ $HOME/.icons/ $HOME/.fonts/ $HOME/.bashrc $DEST/config_files/
-
+cp -r $HOME/.config/i3/ $DEST/config_files
 
 

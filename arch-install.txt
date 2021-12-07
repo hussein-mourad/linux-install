@@ -37,9 +37,7 @@ nano /etc/hosts
 
 Users and passwords:
 passwd (set root pass)
-useradd -m username (make another user)
-passwd username (set that user's password)
-usermod -aG wheel,audio,video,optical,storage username
+useradd -m username (make another user) passwd username (set that user's password) usermod -aG wheel,audio,video,optical,storage username
 
 Sudo:
 pacman -S sudo

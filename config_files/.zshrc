@@ -125,7 +125,7 @@ export LANG=en_US.UTF-8
   alias clp="cd /mnt/d/ClionProjects"
   alias wsp="cd /mnt/d/WebstormProjects"
   alias ideap="cd /mnt/d/IdeaProjects" 
-  alias backup="cd $HOME/Documents/fresh_linux_install" 
+  alias backup="cd /mnt/f/fresh_linux_install" 
 
 # PATH alias
 export uni='/mnt/f/College/Term5'

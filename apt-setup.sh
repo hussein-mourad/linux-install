@@ -37,7 +37,6 @@ sudo apt -y install google-chrome-stable;
 sudo apt -y install microsoft-edge-stable;
 sudo apt -y install firefox;
 
-
 sudo npm i -g npm;
 sudo npm i -g n;
 sudo n stable;
@@ -95,6 +94,14 @@ sudo apt -y install touchegg;
 
 # fonts
 sudo apt -y  install ttf-mscorefonts-installer
+
+# regolith Desktop environment
+# sudo add-apt-repository ppa:regolith-linux/release
+# sudo apt install regolith-desktop-standard
+
+# i3 Desktop environment
+# sudo apt install i3 lxappearance nitrogen rofi compton
+
 
 #oh-my-zsh (must be at the end as the commands block the terminal)
 ZSH=$HOME/.oh-my-zsh

@@ -1,0 +1,22 @@
+[user]
+	email = 38833034+Hussein-Mourad@users.noreply.github.com
+	name = Hussein-Mourad
+	signingkey = C92BAB7BDBDE47C5
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[core]
+	editor = vim
+[commit]
+	gpgSign = true
+[tag]
+	gpgSign = true
+[init]
+	defaultBranch = main
+[gpg]
+	program = gpg
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

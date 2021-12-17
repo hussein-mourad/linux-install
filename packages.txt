@@ -4,6 +4,7 @@ build-essential
 plank
 ranger
 vim
+nvim
 nodejs
 npm
 zsh

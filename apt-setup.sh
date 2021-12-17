@@ -9,7 +9,7 @@ sudo apt update;
 sudo apt install -y git;
 
 # gh
-curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/githubcli-archive-keyring.gpg
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/githubcli-archive-keyring.gpg --yes;
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null;
 sudo apt update;
 sudo apt install -y gh;
@@ -21,6 +21,7 @@ sudo apt -y install ranger;
 sudo apt -y install vim;
 sudo apt -y install nodejs npm;
 sudo apt -y install zsh;
+sudo apt -y install figlet;
 sudo apt -y install python-is-python3 python3-pip;
 sudo apt -y install openjdk-16-jdk openjdk-16-jre;
 sudo apt -y install gnome-tweaks;
@@ -35,14 +36,24 @@ sudo apt -y install texlive-latex-extra
 # sudo apt -y install texlive-full
 sudo apt -y install google-chrome-stable;
 sudo apt -y install microsoft-edge-stable;
+sudo apt -y install teams;
+sudo apt -y install discord;
+sudo apt -y install touche touchegg
+sudo apt -y install atom;
 sudo apt -y install firefox;
+sudo apt -y install vnstat vnstati;
+# vnstati -vs -i wlp02s20fs -o ~/summary.png
+sudo apt -y install gitg;
+sudo apt -y install gnome-usage;
+sudo apt -y install gnome-logs;
+sudo apt -y install wmctrl;
 
 sudo npm i -g npm;
 sudo npm i -g n;
 sudo n stable;
 sudo npm i -g npkill typescript prettier 
 
-sudo snap install cmake --classic;
+# sudo snap install cmake --classic;
 
 # ros
 sudo sh -c 'echo "deb [trusted=yes] http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list';
@@ -93,24 +104,34 @@ sudo apt update;
 sudo apt -y install touchegg;
 
 # fonts
-sudo apt -y  install ttf-mscorefonts-installer
+sudo apt -y install ttf-mscorefonts-installer;
+sudo apt -y install fonts-powerline; 
+sudo apt -y install fonts-jetbrains-mono fonts-firacode fonts-hack;
+sudo apt -y install fonts-3270 fonts-font-awesome;
+
+# themes and icons
+sudo apt -y install dracula-gtk dracula-icon-theme
 
 # regolith Desktop environment
-# sudo add-apt-repository ppa:regolith-linux/release
-# sudo apt install regolith-desktop-standard
+# sudo add-apt-repository ppa:regolith-linux/release -y
+# sudo apt -y install regolith-desktop-standard
 
 # i3 Desktop environment
-# sudo apt install i3 lxappearance nitrogen rofi compton
+# sudo apt -y install i3 lxappearance nitrogen rofi compton
 
 
 #oh-my-zsh (must be at the end as the commands block the terminal)
 ZSH=$HOME/.oh-my-zsh
 ZSH_CUSTOM=$HOME/.oh-my-zsh/custom
+curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh > ohmyzsh-install.sh;
+sh ohmyzsh-install.sh
+# sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)";
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions;
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting;
 git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions;
 git clone https://github.com/jeffreytse/zsh-vi-mode $ZSH/custom/plugins/zsh-vi-mode;
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)";
 
 
+# SpaceVim
+curl -sLf https://spacevim.org/install.sh | bash
 

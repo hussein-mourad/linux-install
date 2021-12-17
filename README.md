@@ -1,4 +1,4 @@
-# Fresh Installer 
+# Fresh Linux Installer 
 This script helps install apps that I need on a fresh install of linux
 
 ## Manual install links:
@@ -14,12 +14,13 @@ This script helps install apps that I need on a fresh install of linux
 - vscode
 - atom 
 - latex: https://linuxconfig.org/how-to-install-latex-on-ubuntu-20-04-focal-fossa-linux
+- dust
+- duf
 
 
 ## Config
 - Swap escape and capslock from gnome tweaks
 - Git verified commits:  https://docs.github.com/en/enterprise-server@3.1/authentication/managing-commit-signature-verification/about-commit-signature-verification
-- Get dotfiles: https://github.com/Hussein-Mourad/config_files
 - cp gitconfig and .gnupg from old installation
 - install grub bootloader:
 ```bash

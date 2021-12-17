@@ -18,7 +18,9 @@ export ZSH="/home/hussein/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+#ZSH_THEME="robbyrussell"
+ZSH_THEME="strug"
+
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -113,9 +115,12 @@ export LANG=en_US.UTF-8
   alias i3blocksc="vim ~/.config/i3/i3blocks.conf"
   alias vimc="vim ~/.vimrc"
   alias files="io.elementary.files"
+
   alias ls="lsd"
   alias lt="lsd --tree"
   alias cat="bat"
+  alias du="dust"
+  alias df="duf"
 
   alias uni="cd /mnt/f/College/Term5/"
   alias webdev="cd /mnt/d/vscode/webdev-challenges/Fullstack/"
@@ -132,3 +137,6 @@ export uni='/mnt/f/College/Term5'
 
 source /opt/ros/noetic/setup.zsh
 source ~/catkin_ws/devel/setup.zsh
+
+figlet -t hussein
+# bash ~/Downloads/pfetch-0.6.0/pfetch

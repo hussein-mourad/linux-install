@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=vnstati -vs -i wlp0s20f3 -o ~/Pictures/network-summary-wifi.png
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Save network usage wifi
+Name=Show network status
+Comment[en_US]=
+Comment=

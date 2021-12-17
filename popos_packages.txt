@@ -9,6 +9,7 @@ adwaita-icon-theme				install
 aglfn						install
 akonadi-backend-mysql				deinstall
 akonadi-server					deinstall
+alacritty					install
 alsa-base					install
 alsa-topology-conf				install
 alsa-ucm-conf					install
@@ -3422,6 +3423,7 @@ python3-distutils				install
 python3-docutils				install
 python3-dulwich					install
 python3-empy					install
+python3-enchant					install
 python3-entrypoints				install
 python3-fasteners				install
 python3-fastimport				install
@@ -3435,6 +3437,7 @@ python3-gnupg					install
 python3-gpg					install
 python3-greenlet				install
 python3-hamcrest				install
+python3-html5lib				install
 python3-httplib2				install
 python3-hyperlink				install
 python3-ibus-1.0				install
@@ -3454,7 +3457,10 @@ python3-lockfile				install
 python3-louis					install
 python3-lz4					install
 python3-macaroonbakery				install
+python3-markdown				install
+python3-markups					install
 python3-matplotlib				install
+python3-mdx-math				install
 python3-minimal					install
 python3-monotonic				install
 python3-mpi4py					install
@@ -3470,6 +3476,7 @@ python3-olefile					install
 python3-opencv					install
 python3-opengl					install
 python3-openssl					install
+python3-packaging				install
 python3-paramiko				install
 python3-pexpect					install
 python3-pil:amd64				install
@@ -3501,6 +3508,7 @@ python3-pyside2.qtgui				install
 python3-pyside2.qtsvg				install
 python3-pyside2.qtwidgets			install
 python3-pyxattr					install
+python3-regex					install
 python3-renderpm:amd64				install
 python3-reportlab				install
 python3-reportlab-accel:amd64			install
@@ -3529,6 +3537,7 @@ python3-software-properties			install
 python3-speechd					install
 python3-systemd					install
 python3-talloc:amd64				install
+python3-textile					install
 python3-tk:amd64				install
 python3-trie					install
 python3-twisted					install
@@ -3542,6 +3551,7 @@ python3-urllib3					install
 python3-vcstools				install
 python3-vtk7					install
 python3-wadllib					install
+python3-webencodings				install
 python3-wheel					install
 python3-wrapt					install
 python3-wsaccel					install
@@ -3617,6 +3627,7 @@ regolith-rofication				install
 regolith-styles					deinstall
 repoman						install
 resolvconf					install
+retext						install
 rfkill						install
 rofi						install
 ros-noetic-actionlib				install
@@ -3984,6 +3995,7 @@ tk-dev:amd64					install
 tk8.6						install
 tk8.6-blt2.5					install
 tk8.6-dev:amd64					install
+tmux						install
 totem						install
 totem-common					install
 totem-plugins					install

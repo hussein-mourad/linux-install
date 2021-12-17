@@ -5,7 +5,6 @@
 - calculator super+c
 - terminal super+enter, super+t, ctrl+alt+t
 - browser super+b
-- vscode super+v
 - settings super+i
 
 hide all normal windows (show desktop) super+d
@@ -22,5 +21,7 @@ close window super+q alt+f4 super+' super+x
 
 maximize window super+m
 
-xkill ctrl+escape
-system monitro shift+ctrl+escape
+## custom
+- xkill ctrl+escape
+- vscode super+v
+- system monitro shift+ctrl+escape

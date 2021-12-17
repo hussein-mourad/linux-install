@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=mv /home/hussein/Pictures/Screenshot\\ from* /home/hussein/Pictures/Screenshots/
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Move screenshots
+Name=Move screenshots
+Comment[en_US]=
+Comment=

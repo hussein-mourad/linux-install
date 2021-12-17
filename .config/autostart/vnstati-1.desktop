@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=vnstati -vs -i enp4s0 -o ~/Pictures/network-summary-ethernet.png
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Save network usage ethernet
+Name=Save network usage ethernet
+Comment[en_US]=
+Comment=

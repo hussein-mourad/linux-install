@@ -18,8 +18,8 @@ export ZSH="/home/hussein/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-#ZSH_THEME="robbyrussell"
-ZSH_THEME="strug"
+# ZSH_THEME="robbyrussell"
+  ZSH_THEME="strug"
 
 
 # Set list of themes to pick from when loading at random
@@ -140,3 +140,5 @@ source ~/catkin_ws/devel/setup.zsh
 
 figlet -t hussein
 # bash ~/Downloads/pfetch-0.6.0/pfetch
+source /opt/ros/noetic/setup.zsh
+source ~/catkin_ws/devel/setup.zsh

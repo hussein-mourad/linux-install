@@ -17,6 +17,7 @@ cp /etc/fstab $DEST/etc/fstab
 cp -r $HOME/.zshrc $HOME/.themes/ $HOME/.icons/ $HOME/.fonts/ $HOME/.bashrc $DEST/config_files/
 # cp -r $HOME/.vim/ $HOME/.vimrc $DEST/config_files/
 cp -r $HOME/.SpaceVim.d/ $DEST/config_files
-cp -r $HOME/.config/i3/ $DEST/config_files/.i3
+cp -r $HOME/.config/i3 $DEST/.config/
+cp -r $HOME/.config/autostart $DEST/.config/
 
 

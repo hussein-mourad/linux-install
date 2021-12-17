@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=sh /mnt/f/fresh_linux_install/backup.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Backup
+Name=Backup extensions
+Comment[en_US]=
+Comment=

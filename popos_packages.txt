@@ -9,7 +9,6 @@ adwaita-icon-theme				install
 aglfn						install
 akonadi-backend-mysql				deinstall
 akonadi-server					deinstall
-alacritty					install
 alsa-base					install
 alsa-topology-conf				install
 alsa-ucm-conf					install
@@ -189,7 +188,7 @@ dpkg						install
 dpkg-dev					install
 dracula-gtk					install
 dracula-icon-theme				install
-dragonplayer					install
+dragonplayer					deinstall
 duf						install
 dunst						deinstall
 duplicity					install

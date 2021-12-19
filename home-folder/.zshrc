@@ -18,7 +18,7 @@
  antigen bundle zsh-users/zsh-completions;
  antigen bundle jeffreytse/zsh-vi-mode;
 
- antigen theme strug
+ antigen theme agnoster 
 
  antigen apply;
  
@@ -147,3 +147,4 @@
 # bash ~/Downloads/pfetch-0.6.0/pfetch
  source /opt/ros/noetic/setup.zsh
  source ~/catkin_ws/devel/setup.zsh
+

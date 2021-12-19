@@ -18,4 +18,4 @@ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc;
 echo "source ~/catkin_ws/devel/setup.zsh" >> ~/.zshrc;
 cd ~/;
 echo $ROS_PACKAGE_PATH;
-sudo apt -y install ros-noetic-rosserial-arduino ros-noetic-rosserial
+sudo apt -y install ros-noetic-rosserial-arduino ros-noetic-rosserial;

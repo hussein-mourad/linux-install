@@ -102,6 +102,7 @@ clipit						deinstall
 cmake						install
 cmake-data					install
 code						install
+codium						install
 colord						install
 colord-data					install
 com.github.donadigo.eddy			install
@@ -708,6 +709,7 @@ kwin-common					install
 kwin-data					install
 kwin-x11					install
 kwrited						deinstall
+lame						install
 language-pack-ar				install
 language-pack-ar-base				install
 language-pack-de				install
@@ -1836,8 +1838,6 @@ libltdl-dev:amd64				install
 libltdl7:amd64					install
 liblua5.2-0:amd64				install
 liblua5.3-0:amd64				install
-libluajit-5.1-2:amd64				install
-libluajit-5.1-common				install
 liblvm2cmd2.03:amd64				install
 liblwp-mediatypes-perl				install
 liblwp-protocol-https-perl			install
@@ -1887,7 +1887,6 @@ libmpeg2-4:amd64				install
 libmpfr6:amd64					install
 libmpg123-0:amd64				install
 libmpx2:amd64					install
-libmsgpackc2:amd64				install
 libmspack0:amd64				install
 libmspub-0.1-1:amd64				install
 libmtdev1:amd64					install
@@ -2464,7 +2463,6 @@ libtdb1:amd64					install
 libteamdctl0:amd64				install
 libteckit0:amd64				install
 libtepl-4-0:amd64				install
-libtermkey1:amd64				install
 libtesseract4:amd64				install
 libtevent0:amd64				install
 libtexlua53:amd64				install
@@ -2514,7 +2512,6 @@ libuchardet0:amd64				install
 libudev1:amd64					install
 libudisks2-0:amd64				install
 libumfpack5:amd64				install
-libunibilium4:amd64				install
 libunique-1.0-0					install
 libunistring2:amd64				install
 libunistring2:i386				install
@@ -2588,7 +2585,6 @@ libvpx6:amd64					install
 libvte-2.91-0:amd64				install
 libvte-2.91-common				install
 libvted-3-0					install
-libvterm0:amd64					install
 libvtk6.3					install
 libvtk7-dev					install
 libvtk7-java					install
@@ -2796,18 +2792,20 @@ lightdm						install
 linux-base					install
 linux-firmware					install
 linux-generic					install
-linux-headers-5.13.0-7620			install
-linux-headers-5.13.0-7620-generic		install
 linux-headers-5.15.5-76051505			install
 linux-headers-5.15.5-76051505-generic		install
+linux-headers-5.15.8-76051508			install
+linux-headers-5.15.8-76051508-generic		install
 linux-headers-generic				install
-linux-image-5.13.0-7620-generic			install
+linux-image-5.13.0-7620-generic			deinstall
 linux-image-5.15.5-76051505-generic		install
+linux-image-5.15.8-76051508-generic		install
 linux-image-generic				install
 linux-libc-dev:amd64				install
-linux-modules-5.13.0-7620-generic		install
+linux-modules-5.13.0-7620-generic		deinstall
 linux-modules-5.15.5-76051505-generic		install
-linux-modules-extra-5.13.0-7620-generic		install
+linux-modules-5.15.8-76051508-generic		install
+linux-modules-extra-5.13.0-7620-generic		deinstall
 linux-sound-base				install
 linux-system76					install
 lm-sensors					install
@@ -2828,7 +2826,6 @@ lua-bitop:amd64					install
 lua-expat:amd64					install
 lua-json					install
 lua-lpeg:amd64					install
-lua-luv:amd64					install
 lua-socket:amd64				install
 lvm2						install
 lxappearance					install
@@ -2921,8 +2918,6 @@ nautilus-sendto					install
 ncurses-base					install
 ncurses-bin					install
 neofetch					install
-neovim						install
-neovim-runtime					install
 net-tools					install
 netbase						install
 netcat-openbsd					install
@@ -3434,7 +3429,7 @@ python3-github					install
 python3-gitlab					install
 python3-gnupg					install
 python3-gpg					install
-python3-greenlet				install
+python3-greenlet				deinstall
 python3-hamcrest				install
 python3-html5lib				install
 python3-httplib2				install
@@ -3463,9 +3458,7 @@ python3-mdx-math				install
 python3-minimal					install
 python3-monotonic				install
 python3-mpi4py					install
-python3-msgpack					install
 python3-nacl					install
-python3-neovim					install
 python3-netifaces				install
 python3-nose					install
 python3-notify2					install
@@ -3495,7 +3488,6 @@ python3-pydot					install
 python3-pygments				install
 python3-pykdl:amd64				install
 python3-pymacaroons				install
-python3-pynvim					install
 python3-pyparsing				install
 python3-pyqrcode				install
 python3-pyqt5					install
@@ -3915,6 +3907,7 @@ software-properties-gtk				install
 sonnet-plugins					install
 sound-icons					install
 sound-theme-freedesktop				install
+soundconverter					install
 speech-dispatcher				install
 speech-dispatcher-audio-plugins:amd64		install
 speech-dispatcher-espeak-ng			install
@@ -4115,7 +4108,6 @@ x11proto-xinerama-dev				install
 xauth						install
 xbitmaps					install
 xbrlapi						install
-xclip						install
 xdg-dbus-proxy					install
 xdg-desktop-portal				install
 xdg-desktop-portal-gtk				install

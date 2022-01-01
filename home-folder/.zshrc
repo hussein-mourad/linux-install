@@ -18,7 +18,8 @@
  antigen bundle zsh-users/zsh-completions;
  antigen bundle jeffreytse/zsh-vi-mode;
 
- antigen theme agnoster 
+# antigen theme agnoster 
+ antigen theme strug 
 
  antigen apply;
  
@@ -135,6 +136,7 @@
   alias clp="cd /mnt/d/ClionProjects"
   alias wsp="cd /mnt/d/WebstormProjects"
   alias ideap="cd /mnt/d/IdeaProjects" 
+  alias ard="cd /mnt/d/Arduino/"
   alias backup="cd /mnt/f/fresh_linux_install" 
 
 # PATH alias
@@ -143,8 +145,9 @@
  source /opt/ros/noetic/setup.zsh
  source ~/catkin_ws/devel/setup.zsh
 
- figlet -t hussein
 # bash ~/Downloads/pfetch-0.6.0/pfetch
  source /opt/ros/noetic/setup.zsh
  source ~/catkin_ws/devel/setup.zsh
 
+ figlet -t hussein
+# colorscript random

@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=vnstati -vs -i enp4s0 -o ~/Pictures/network-summary-ethernet.png
+Exec=vnstati -vs -i enp4s0 -o /home/hussein/Pictures/network-summary-ethernet.png
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true

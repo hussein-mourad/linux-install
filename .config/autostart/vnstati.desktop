@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=vnstati -vs -i wlp0s20f3 -o ~/Pictures/network-summary-wifi.png
+Exec=vnstati -vs -i wlp0s20f3 -o /home/hussein/Pictures/network-summary-wifi.png
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true

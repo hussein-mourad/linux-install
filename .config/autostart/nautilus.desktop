@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=nautilus /mnt/f/College/Term5/
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=File manager
+Name=File manager
+Comment[en_US]=
+Comment=

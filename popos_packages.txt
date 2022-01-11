@@ -141,6 +141,7 @@ cups-server-common				install
 curl						install
 cython3						install
 dash						install
+dbeaver-ce					install
 dbus						install
 dbus-user-session				install
 dbus-x11					install
@@ -211,6 +212,7 @@ epiphany-browser				install
 epiphany-browser-data				install
 epstool						install
 espeak-ng-data:amd64				install
+ethtool						install
 evince						install
 evince-common					install
 evolution-data-server				install
@@ -321,6 +323,8 @@ gdb						install
 gdbserver					install
 gdisk						install
 gdm3						install
+geany						install
+geany-common					install
 geary						install
 gedit						install
 gedit-common					install
@@ -552,6 +556,7 @@ haveged						install
 hddtemp						install
 hdf5-helpers					install
 hdparm						install
+hibernate					install
 hicolor-icon-theme				install
 hidpi-daemon					install
 hostname					install
@@ -2640,6 +2645,7 @@ libx11-xcb1:amd64				install
 libx11-xcb1:i386				install
 libx264-155:amd64				install
 libx265-179:amd64				install
+libx86-1:amd64					install
 libx86emu2:amd64				install
 libxatracker2:amd64				install
 libxau-dev:amd64				install
@@ -3293,6 +3299,7 @@ plymouth-theme-pop-basic			install
 plymouth-theme-spinner				install
 plymouth-theme-ubuntu-text			install
 plymouth-themes					install
+pm-utils					install
 po-debconf					install
 policykit-1					install
 policykit-1-gnome				install
@@ -4038,10 +4045,12 @@ usb.ids						install
 usbmuxd						install
 usbutils					install
 user-manager					deinstall
+uswsusp						install
 util-linux					install
 uuid-dev:amd64					install
 uuid-runtime					install
 va-driver-all:amd64				install
+vbetool						install
 vdpau-driver-all:amd64				install
 vim						install
 vim-common					install

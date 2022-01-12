@@ -36,6 +36,7 @@ sudo apt -y install gnome-usage;
 sudo apt -y install gnome-logs;
 sudo apt -y install wmctrl;
 sudo apt -y install retext;
+sudo apt -y install gnome-sushi;
 
 sudo npm i -g npm;
 sudo npm i -g n;

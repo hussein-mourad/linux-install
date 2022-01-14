@@ -349,6 +349,7 @@ gir1.2-atk-1.0:amd64				install
 gir1.2-atspi-2.0:amd64				install
 gir1.2-dbusmenu-glib-0.4:amd64			install
 gir1.2-dee-1.0					install
+gir1.2-evince-3.0:amd64				install
 gir1.2-flatpak-1.0:amd64			install
 gir1.2-freedesktop:amd64			install
 gir1.2-gck-1:amd64				install
@@ -363,6 +364,7 @@ gir1.2-gnomebluetooth-1.0:amd64			install
 gir1.2-gnomedesktop-3.0:amd64			install
 gir1.2-goa-1.0:amd64				install
 gir1.2-graphene-1.0:amd64			install
+gir1.2-gst-plugins-base-1.0:amd64		install
 gir1.2-gstreamer-1.0:amd64			install
 gir1.2-gtk-2.0:amd64				install
 gir1.2-gtk-3.0:amd64				install
@@ -374,6 +376,7 @@ gir1.2-gweather-3.0:amd64			install
 gir1.2-handy-0.0:amd64				install
 gir1.2-harfbuzz-0.0:amd64			install
 gir1.2-ibus-1.0:amd64				install
+gir1.2-javascriptcoregtk-4.0:amd64		install
 gir1.2-json-1.0:amd64				install
 gir1.2-libosinfo-1.0:amd64			install
 gir1.2-libvirt-glib-1.0:amd64			install
@@ -398,6 +401,7 @@ gir1.2-udisks-2.0:amd64				install
 gir1.2-unity-5.0:amd64				install
 gir1.2-upowerglib-1.0:amd64			install
 gir1.2-vte-2.91:amd64				install
+gir1.2-webkit2-4.0:amd64			install
 gir1.2-wnck-3.0:amd64				install
 git						install
 git-man						install
@@ -459,6 +463,7 @@ gnome-shell-extension-system76-power		install
 gnome-shell-pomodoro				install
 gnome-shell-pomodoro-data			install
 gnome-startup-applications			install
+gnome-sushi					install
 gnome-system-monitor				install
 gnome-system-tools				install
 gnome-terminal					install
@@ -1898,6 +1903,8 @@ libmtdev1:amd64					install
 libmtp-common					install
 libmtp-runtime					install
 libmtp9:amd64					install
+libmusicbrainz5-2:amd64				install
+libmusicbrainz5cc2v5:amd64			install
 libmutter-6-0:amd64				install
 libmwaw-0.3-3:amd64				install
 libmypaint-1.5-1:amd64				install

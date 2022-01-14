@@ -9,34 +9,40 @@ sudo apt -y install ranger;
 sudo apt -y install vim;
 sudo apt -y install nodejs npm;
 sudo apt -y install zsh;
-sudo apt -y install figlet;
+sudo apt -y install figlet; # fun 
 sudo apt -y install python-is-python3 python3-pip;
 sudo apt -y install openjdk-16-jdk openjdk-16-jre;
 sudo apt -y install gnome-tweaks;
 sudo apt -y install gparted;
 sudo apt -y install peek;
-sudo apt -y install simplescreenrecorder;
-sudo apt -y install exfat-utils exfat-fuse;
-sudo apt -y install texlive-latex-extra
+sudo apt -y install simplescreenrecorder; 
+sudo apt -y install exfat-utils exfat-fuse; # fat32 support
+sudo apt -y install texlive-latex-extra;
 # sudo apt -y install texlive-base;
 # sudo apt -y install texlive-latex-recommended;
 # sudo apt -y install texlive
 # sudo apt -y install texlive-full
-sudo apt -y install google-chrome-stable;
-sudo apt -y install microsoft-edge-stable;
+sudo apt -y install google-chrome-stable; # need to add repo to apt 
+sudo apt -y install microsoft-edge-stable; # need to add repo to apt
 sudo apt -y install teams;
 sudo apt -y install discord;
-sudo apt -y install touche touchegg
+sudo apt -y install touche touchegg; # gestures support
 sudo apt -y install atom;
 sudo apt -y install firefox;
-sudo apt -y install vnstat vnstati;
+sudo apt -y install vnstat vnstati; # network tools
 # vnstati -vs -i wlp02s20fs -o ~/summary.png
-sudo apt -y install gitg;
+sudo apt -y install gitg; # git viewer
 sudo apt -y install gnome-usage;
 sudo apt -y install gnome-logs;
 sudo apt -y install wmctrl;
-sudo apt -y install retext;
-sudo apt -y install gnome-sushi;
+sudo apt -y install retext; # markdown editor
+sudo apt -y install gnome-sushi; # quick look alternative in linux
+sudo apt -y install lollypop; # music player
+sudo apt -y install mp3rename;
+sudo apt -y install rename; # rename multiple files
+sudo apt -y install httpie;
+sudo apt -y install fd-find; # alternative to find
+sudo apt -y install tldr; # man alternative
 
 sudo npm i -g npm;
 sudo npm i -g n;

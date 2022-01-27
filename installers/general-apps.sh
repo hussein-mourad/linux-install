@@ -18,6 +18,7 @@ sudo apt -y install peek;
 sudo apt -y install simplescreenrecorder; 
 sudo apt -y install exfat-utils exfat-fuse; # fat32 support
 sudo apt -y install texlive-latex-extra;
+sudo apt -y install texlive-extra-utils;
 # sudo apt -y install texlive-base;
 # sudo apt -y install texlive-latex-recommended;
 # sudo apt -y install texlive

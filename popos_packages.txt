@@ -101,6 +101,7 @@ chromium					deinstall
 clipit						deinstall
 cmake						install
 cmake-data					install
+cmatrix						install
 code						install
 codium						install
 colord						install
@@ -141,7 +142,6 @@ cups-server-common				install
 curl						install
 cython3						install
 dash						install
-dbeaver-ce					install
 dbus						install
 dbus-user-session				install
 dbus-x11					install
@@ -199,6 +199,8 @@ dvipng						install
 dvisvgm						install
 dwz						install
 e2fsprogs					install
+easytag						install
+easytag-nautilus				install
 ecryptfs-utils					install
 ed						install
 efibootmgr					install
@@ -389,6 +391,7 @@ gir1.2-packagekitglib-1.0			install
 gir1.2-pango-1.0:amd64				install
 gir1.2-peas-1.0:amd64				install
 gir1.2-polkit-1.0				install
+gir1.2-rb-3.0:amd64				install
 gir1.2-rsvg-2.0:amd64				install
 gir1.2-secret-1:amd64				install
 gir1.2-snapd-1:amd64				install
@@ -569,6 +572,7 @@ hplip						install
 hplip-data					install
 hplip-gui					install
 htop						install
+httpie						install
 humanity-icon-theme				install
 hunspell-ar					install
 hunspell-de-at-frami				install
@@ -623,6 +627,8 @@ ibus-table-quick-classic			install
 ibus-table-wubi					install
 ibverbs-providers:amd64				install
 icu-devtools					install
+id3tool						install
+id3v2						install
 ieee-data					deinstall
 ifstat						install
 ifupdown					install
@@ -1432,6 +1438,8 @@ libgphoto2-dev:amd64				install
 libgphoto2-l10n					install
 libgphoto2-port12:amd64				install
 libgpm2:amd64					install
+libgpod-common					install
+libgpod4:amd64					install
 libgranite-common				install
 libgranite5:amd64				install
 libgraphene-1.0-0:amd64				install
@@ -1553,6 +1561,7 @@ libice-dev:amd64				install
 libice6:amd64					install
 libicu-dev:amd64				install
 libicu66:amd64					install
+libid3-3.8.3v5:amd64				install
 libid3tag0:amd64				install
 libidn11:amd64					install
 libidn2-0:amd64					install
@@ -2060,6 +2069,7 @@ libopenni0					install
 libopenni2-0					install
 libopenni2-dev					install
 libopus0:amd64					install
+libopusfile0					install
 liborc-0.4-0:amd64				install
 liborcus-0.15-0:amd64				install
 liborocos-kdl-dev:amd64				install
@@ -2348,6 +2358,7 @@ librest-0.7-0:amd64				install
 librevenge-0.0-0:amd64				install
 librhash0:amd64					install
 librhino-java					install
+librhythmbox-core10:amd64			install
 libridl-java					install
 libroken18-heimdal:amd64			install
 librsvg2-2:amd64				install
@@ -2389,6 +2400,7 @@ libsepol1:amd64					install
 libsepol1-dev:amd64				install
 libserd-0-0:amd64				install
 libserf-1-1:amd64				install
+libsgutils2-2					install
 libshiboken2-dev				install
 libshiboken2-py3-5.14				install
 libshine3:amd64					install
@@ -2807,6 +2819,8 @@ linux-firmware					install
 linux-generic					install
 linux-headers-5.15.11-76051511			install
 linux-headers-5.15.11-76051511-generic		install
+linux-headers-5.15.15-76051515			install
+linux-headers-5.15.15-76051515-generic		install
 linux-headers-5.15.5-76051505			install
 linux-headers-5.15.5-76051505-generic		install
 linux-headers-5.15.8-76051508			install
@@ -2814,12 +2828,14 @@ linux-headers-5.15.8-76051508-generic		install
 linux-headers-generic				install
 linux-image-5.13.0-7620-generic			deinstall
 linux-image-5.15.11-76051511-generic		install
+linux-image-5.15.15-76051515-generic		install
 linux-image-5.15.5-76051505-generic		install
 linux-image-5.15.8-76051508-generic		install
 linux-image-generic				install
 linux-libc-dev:amd64				install
 linux-modules-5.13.0-7620-generic		deinstall
 linux-modules-5.15.11-76051511-generic		install
+linux-modules-5.15.15-76051515-generic		install
 linux-modules-5.15.5-76051505-generic		install
 linux-modules-5.15.8-76051508-generic		install
 linux-modules-extra-5.13.0-7620-generic		deinstall
@@ -2832,6 +2848,7 @@ login						install
 logisim						install
 logrotate					install
 logsave						install
+lollypop					install
 lp-solve					install
 lsb-base					install
 lsb-release					install
@@ -2907,6 +2924,7 @@ mongodb-org-tools				hold
 mount						install
 mozc-data					install
 mozc-server					install
+mp3rename					install
 mpi-default-bin					install
 mpi-default-dev					install
 mpv						install
@@ -3248,6 +3266,10 @@ odbcinst					install
 odbcinst1debian2:amd64				install
 okular						install
 okular-extra-backends				install
+onboard						install
+onboard-common					install
+onboard-data					install
+openboard					install
 openbox						install
 openbox-lxde-session				install
 opencv-data					install
@@ -3276,6 +3298,7 @@ p7zip						install
 p7zip-full					install
 packagekit					install
 pango1.0-tools					install
+papirus-icon-theme				install
 parted						install
 passwd						install
 patch						install
@@ -3405,6 +3428,7 @@ python3-bcrypt					install
 python3-blinker					install
 python3-breezy					install
 python3-brlapi:amd64				install
+python3-bs4					install
 python3-cairo:amd64				install
 python3-catkin-pkg				install
 python3-catkin-pkg-modules			install
@@ -3467,10 +3491,13 @@ python3-libvirt					install
 python3-libxml2:amd64				install
 python3-lockfile				install
 python3-louis					install
+python3-lxml:amd64				install
 python3-lz4					install
 python3-macaroonbakery				install
+python3-mako					install
 python3-markdown				install
 python3-markups					install
+python3-markupsafe				install
 python3-matplotlib				install
 python3-mdx-math				install
 python3-minimal					install
@@ -3505,6 +3532,7 @@ python3-pydbus					install
 python3-pydot					install
 python3-pygments				install
 python3-pykdl:amd64				install
+python3-pylast					install
 python3-pymacaroons				install
 python3-pyparsing				install
 python3-pyqrcode				install
@@ -3543,6 +3571,7 @@ python3-sip-dev					install
 python3-six					install
 python3-snappy					install
 python3-software-properties			install
+python3-soupsieve				install
 python3-speechd					install
 python3-systemd					install
 python3-talloc:amd64				install
@@ -3634,10 +3663,15 @@ regolith-i3xrocks-config			install
 regolith-look-lascaille				deinstall
 regolith-rofication				install
 regolith-styles					deinstall
+rename						install
 repoman						install
 resolvconf					install
 retext						install
 rfkill						install
+rhythmbox					install
+rhythmbox-data					install
+rhythmbox-plugin-alternative-toolbar		install
+rhythmbox-plugins				install
 rofi						install
 ros-noetic-actionlib				install
 ros-noetic-actionlib-msgs			install
@@ -3917,6 +3951,7 @@ simple-scan					install
 simplescreenrecorder				install
 simulide					install
 sip-dev						install
+sl						install
 smartmontools					deinstall
 snapd						install
 socat						install
@@ -4005,6 +4040,7 @@ tk-dev:amd64					install
 tk8.6						install
 tk8.6-blt2.5					install
 tk8.6-dev:amd64					install
+tldr						install
 tmux						install
 totem						install
 totem-common					install
@@ -4075,6 +4111,7 @@ virt-viewer					install
 virtinst					install
 virtualbox					install
 virtualbox-dkms					install
+virtualbox-guest-additions-iso			install
 virtualbox-qt					install
 vlc						install
 vlc-bin						install

@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=nautilus /mnt/f/College/Term5/
+Exec=ranger /mnt/f/College/Term5/
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true

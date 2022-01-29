@@ -23,12 +23,12 @@ if [[ ! -e "$1" ]]
 fi
 
 echo Printing even pages of "$1" ......
-lpr -o outputorder=reverse -o page-set=even "$1"
+lpr -o media=a4 -o outputorder=reverse -o page-set=even "$1"
 
 read -r -p "Flip the pages......Continue (y/n)?" response
  response=${response,,} # tolower
 if [[ $response =~ ^(yes|y| ) ]] || [[ -z $response ]]; then
-  lpr -o page-set=odd "$1"
+  lpr -o media=a4 -o page-set=odd "$1"
 fi
 
 

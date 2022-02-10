@@ -9,3 +9,5 @@ deb http://mirrors.nav.ro/ubuntu/ focal-backports main restricted universe multi
 deb-src http://mirrors.nav.ro/ubuntu/ focal-backports main restricted universe multiverse
 deb http://apt.pop-os.org/proprietary focal main
 
+deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/ /
+# deb-src https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/ /

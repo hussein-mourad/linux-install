@@ -44,6 +44,7 @@ sudo apt -y install rename; # rename multiple files
 sudo apt -y install httpie;
 sudo apt -y install fd-find; # alternative to find
 sudo apt -y install tldr; # man alternative
+sudo apt -y install mdless glow;
 
 sudo npm i -g npm;
 sudo npm i -g n;

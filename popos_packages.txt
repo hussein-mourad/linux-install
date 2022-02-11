@@ -72,6 +72,8 @@ binutils					install
 binutils-avr					install
 binutils-common:amd64				install
 binutils-x86-64-linux-gnu			install
+blender						install
+blender-data					install
 blt						install
 bluez						install
 bluez-cups					install
@@ -128,15 +130,10 @@ cryptsetup					install
 cryptsetup-bin					install
 cryptsetup-initramfs				install
 cryptsetup-run					install
-cuda-cccl-11-5					install
-cuda-cudart-11-5				install
-cuda-cudart-dev-11-5				install
-cuda-driver-dev-11-5				install
-cuda-nvcc-11-5					install
 cuda-repo-ubuntu2004-11-6-local			install
-cuda-toolkit-11-5-config-common			install
-cuda-toolkit-11-config-common			install
-cuda-toolkit-config-common			install
+cuda-toolkit-11-5-config-common			deinstall
+cuda-toolkit-11-config-common			deinstall
+cuda-toolkit-config-common			deinstall
 cups						install
 cups-browsed					install
 cups-bsd					install
@@ -275,6 +272,7 @@ fontconfig-config				install
 fonts-3270					install
 fonts-arphic-ukai				install
 fonts-arphic-uming				install
+fonts-dejavu					install
 fonts-dejavu-core				install
 fonts-dejavu-extra				install
 fonts-droid-fallback				install
@@ -398,6 +396,7 @@ gir1.2-ibus-1.0:amd64				install
 gir1.2-javascriptcoregtk-4.0:amd64		install
 gir1.2-json-1.0:amd64				install
 gir1.2-jsonrpc-1.0:amd64			install
+gir1.2-keybinder-3.0				install
 gir1.2-libosinfo-1.0:amd64			install
 gir1.2-libvirt-glib-1.0:amd64			install
 gir1.2-mutter-6:amd64				install
@@ -919,6 +918,7 @@ libblockdev-part2:amd64				install
 libblockdev-swap2:amd64				install
 libblockdev-utils2:amd64			install
 libblockdev2:amd64				install
+libblosc1					install
 libbluetooth3:amd64				install
 libbluray2:amd64				install
 libboost-all-dev				install
@@ -1186,6 +1186,7 @@ libdbusmenu-qt5-2:amd64				install
 libdc1394-22:amd64				install
 libdc1394-22-dev:amd64				install
 libdca0:amd64					install
+libdcmtk14					install
 libdconf1:amd64					install
 libde265-0:amd64				install
 libdebconf-kde1:amd64				install
@@ -1730,6 +1731,7 @@ libjbig2dec0:amd64				install
 libjcat1:amd64					install
 libjcommon-java					install
 libjdom1-java					install
+libjemalloc2:amd64				install
 libjfreechart-java				install
 libjfugue-java					install
 libjlatexmath-java				install
@@ -2149,6 +2151,7 @@ libopenblas-dev:amd64				install
 libopenblas-pthread-dev:amd64			install
 libopenblas0:amd64				install
 libopenblas0-pthread:amd64			install
+libopencolorio1v5				install
 libopenconnect5:amd64				install
 libopencore-amrnb0:amd64			install
 libopencore-amrwb0:amd64			install
@@ -2198,6 +2201,7 @@ libopenexr-dev					install
 libopenexr24:amd64				install
 libopengl-dev:amd64				install
 libopengl0:amd64				install
+libopenimageio2.1:amd64				install
 libopenjp2-7:amd64				install
 libopenjp2-7-dev				install
 libopenmpi-dev:amd64				install
@@ -2209,12 +2213,15 @@ libopenni-sensor-pointclouds0			install
 libopenni0					install
 libopenni2-0					install
 libopenni2-dev					install
+libopenvdb6.2					install
 libopus0:amd64					install
 libopusfile0					install
 liborc-0.4-0:amd64				install
 liborcus-0.15-0:amd64				install
 liborocos-kdl-dev:amd64				install
 liborocos-kdl1.4				install
+libosdcpu3.4.0:amd64				install
+libosdgpu3.4.0:amd64				install
 libosinfo-1.0-0:amd64				install
 libostree-1-1:amd64				install
 libostree-dev:amd64				install
@@ -2601,6 +2608,7 @@ libspice-server1:amd64				install
 libspnav0					install
 libsqlite3-0:amd64				install
 libsqlite3-dev:amd64				install
+libsquish0:amd64				install
 libsratom-0-0:amd64				install
 libsrt1:amd64					install
 libss2:amd64					install
@@ -4184,10 +4192,12 @@ system-config-printer-udev			install
 system-monitoring-center			install
 system-tools-backends				install
 system76-acpi-dkms				install
+system76-cuda					deinstall
 system76-dkms					install
 system76-io-dkms				install
 system76-power					install
 system76-scheduler				install
+system76-wallpapers				install
 systemd						install
 systemd-container				install
 systemd-sysv					install
@@ -4207,6 +4217,7 @@ tcpdump						install
 teams						install
 tegaki-zinnia-japanese				install
 telnet						install
+terminator					install
 terminology					install
 terminology-data				install
 tesseract-ocr					install

@@ -46,7 +46,7 @@ sudo apt -y install fd-find; # alternative to find
 sudo apt -y install tldr; # man alternative
 sudo apt -y install mdless glow;
 sudo apt -y install pdftk;
-sudo apt -y install blender;
+sudo apt -y install blender audacity;
 
 sudo npm i -g npm;
 sudo npm i -g n;

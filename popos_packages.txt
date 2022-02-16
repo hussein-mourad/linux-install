@@ -93,15 +93,18 @@ bzip2-doc					install
 bzr						install
 ca-certificates					install
 ca-certificates-java				install
+ca-certificates-mono				install
 cabextract					install
 catdoc						deinstall
 chafa						install
 cheese						install
 cheese-common					install
+chemical-mime-data				install
 chrome-gnome-shell				install
 chromium					deinstall
 clang						install
 clang-10					install
+cli-common					install
 clipit						deinstall
 cmake						install
 cmake-data					install
@@ -159,6 +162,9 @@ dconf-editor					install
 dconf-gsettings-backend:amd64			install
 dconf-service					install
 dctrl-tools					install
+ddrescue-gui					install
+ddrescueview					install
+ddrutility					install
 debconf						install
 debconf-i18n					install
 debconf-kde-data				install
@@ -336,6 +342,7 @@ gcr						install
 gdal-data					install
 gdb						install
 gdbserver					install
+gddrescue					install
 gdisk						install
 gdm3						install
 geany						install
@@ -733,6 +740,7 @@ kopete-data					deinstall
 korganizer					deinstall
 kpackagelauncherqml				install
 kpackagetool5					install
+kpartx						install
 krb5-multidev:amd64				install
 kscreen						deinstall
 ksshaskpass					install
@@ -795,6 +803,7 @@ laptop-detect					install
 less						install
 lib32gcc-s1					install
 lib32stdc++6					install
+lib3ds-1-3:amd64				install
 liba52-0.7.4:amd64				install
 libaa1:amd64					install
 libaacs0:amd64					install
@@ -806,6 +815,7 @@ libaccountsservice0:amd64			install
 libacl1:amd64					install
 libaec-dev:amd64				install
 libaec0:amd64					install
+libafflib0v5					install
 libaio1:amd64					install
 libalgorithm-c3-perl				install
 libalgorithm-diff-perl				install
@@ -903,6 +913,7 @@ libbabeltrace1:amd64				install
 libbabl-0.1-0:amd64				install
 libbamf3-2:amd64				install
 libbasicusageenvironment1:amd64			install
+libbcprov-java					install
 libbdplus0:amd64				install
 libbinutils:amd64				install
 libblas-dev:amd64				install
@@ -1113,6 +1124,7 @@ libcolorpicker-java				install
 libcom-err2:amd64				install
 libcommon-sense-perl				install
 libcommons-collections3-java			install
+libcommons-lang3-java				install
 libcommons-logging-java				install
 libcommons-math-java				install
 libcommons-parent-java				install
@@ -1172,6 +1184,7 @@ libdart6-utils					install
 libdart6-utils-urdf				install
 libdata-dump-perl				install
 libdata-optlist-perl				install
+libdate-manip-perl				install
 libdatrie-dev:amd64				install
 libdatrie1:amd64				install
 libdazzle-1.0-0:amd64				install
@@ -1266,6 +1279,7 @@ libefreet1a:amd64				install
 libegl-dev:amd64				install
 libegl-mesa0:amd64				install
 libegl1:amd64					install
+libegl1-mesa:amd64				install
 libegl1-mesa-dev:amd64				install
 libeigen3-dev					install
 libeina1a:amd64					install
@@ -1316,6 +1330,7 @@ libevent-extra-2.1-7:amd64			install
 libevent-openssl-2.1-7:amd64			install
 libevent-pthreads-2.1-7:amd64			install
 libevview3-3:amd64				install
+libewf2						install
 libexception-class-perl				install
 libexempi8:amd64				install
 libexif-dev:amd64				install
@@ -1445,6 +1460,7 @@ libgdbm-compat4:amd64				install
 libgdbm6:amd64					install
 libgdcm-dev					install
 libgdcm3.0:amd64				install
+libgdiplus					install
 libgdk-pixbuf2.0-0:amd64			install
 libgdk-pixbuf2.0-bin				install
 libgdk-pixbuf2.0-common				install
@@ -1478,6 +1494,7 @@ libgl1:i386					install
 libgl1-mesa-dev:amd64				install
 libgl1-mesa-dri:amd64				install
 libgl1-mesa-dri:i386				install
+libgl1-mesa-glx:amd64				install
 libgl2ps-dev					install
 libgl2ps1.4					install
 libglade2-0:amd64				install
@@ -1494,6 +1511,7 @@ libglib-object-introspection-perl		install
 libglib-perl:amd64				install
 libglib2.0-0:amd64				install
 libglib2.0-bin					install
+libglib2.0-cil					install
 libglib2.0-data					install
 libglib2.0-dev:amd64				install
 libglib2.0-dev-bin				install
@@ -1579,6 +1597,7 @@ libgtk-3-doc					install
 libgtk-vnc-2.0-0:amd64				install
 libgtk2.0-0:amd64				install
 libgtk2.0-bin					install
+libgtk2.0-cil					install
 libgtk2.0-common				install
 libgtk2.0-dev:amd64				install
 libgtk3-perl					install
@@ -2009,6 +2028,23 @@ libmng2:amd64					install
 libmnl0:amd64					install
 libmodule-implementation-perl			install
 libmodule-runtime-perl				install
+libmono-addins-gui0.2-cil			install
+libmono-addins0.2-cil				install
+libmono-btls-interface4.0-cil			install
+libmono-cairo4.0-cil				install
+libmono-corlib4.5-cil				install
+libmono-i18n-west4.0-cil			install
+libmono-i18n4.0-cil				install
+libmono-posix4.0-cil				install
+libmono-security4.0-cil				install
+libmono-sharpzip4.84-cil			install
+libmono-system-configuration4.0-cil		install
+libmono-system-core4.0-cil			install
+libmono-system-drawing4.0-cil			install
+libmono-system-numerics4.0-cil			install
+libmono-system-security4.0-cil			install
+libmono-system-xml4.0-cil			install
+libmono-system4.0-cil				install
 libmount-dev:amd64				install
 libmount1:amd64					install
 libmozjs-68-0:amd64				install
@@ -2027,6 +2063,7 @@ libmtdev1:amd64					install
 libmtp-common					install
 libmtp-runtime					install
 libmtp9:amd64					install
+libmuparser2v5:amd64				install
 libmusicbrainz5-2:amd64				install
 libmusicbrainz5cc2v5:amd64			install
 libmutter-6-0:amd64				install
@@ -2155,6 +2192,7 @@ libopencolorio1v5				install
 libopenconnect5:amd64				install
 libopencore-amrnb0:amd64			install
 libopencore-amrwb0:amd64			install
+libopenctm1:amd64				install
 libopencv-calib3d-dev:amd64			install
 libopencv-calib3d4.2:amd64			install
 libopencv-contrib-dev:amd64			install
@@ -2451,6 +2489,7 @@ libqt5webkit5-dev:amd64				install
 libqt5widgets5:amd64				install
 libqt5x11extras5:amd64				install
 libqt5xml5:amd64				install
+libqt5xmlpatterns5:amd64			install
 libquadmath0:amd64				install
 libquazip5-1:amd64				install
 libquvi-0.9-0.9.3:amd64				install
@@ -2700,6 +2739,7 @@ libtracker-miner-2.0-0:amd64			install
 libtracker-sparql-2.0-0:amd64			install
 libtry-tiny-perl				install
 libtsan0:amd64					install
+libtsk13					install
 libtss2-esys0					install
 libtumbler-1-0					install
 libturbojpeg:amd64				install
@@ -2886,6 +2926,7 @@ libxcb-xinerama0:amd64				install
 libxcb-xinput0:amd64				install
 libxcb-xkb1:amd64				install
 libxcb-xrm0:amd64				install
+libxcb-xtest0:amd64				install
 libxcb-xv0:amd64				install
 libxcb1:amd64					install
 libxcb1:i386					install
@@ -3092,6 +3133,7 @@ mesa-va-drivers:amd64				install
 mesa-vdpau-drivers:amd64			install
 mesa-vulkan-drivers:amd64			install
 mesa-vulkan-drivers:i386			install
+meshlab						install
 meson						install
 microsoft-edge-beta				deinstall
 microsoft-edge-stable				install
@@ -3109,6 +3151,11 @@ mongodb-org-mongos				hold
 mongodb-org-server				hold
 mongodb-org-shell				hold
 mongodb-org-tools				hold
+mono-4.0-gac					install
+mono-gac					install
+mono-runtime					install
+mono-runtime-common				install
+mono-runtime-sgen				install
 mount						install
 mozc-data					install
 mozc-server					install
@@ -3511,6 +3558,8 @@ pci.ids						install
 pciutils					install
 pcmanfm						install
 pcmciautils					install
+pdftk						install
+pdftk-java					install
 peek						install
 pencil2d					install
 perl						install
@@ -3521,6 +3570,7 @@ phonon4qt5:amd64				install
 phonon4qt5-backend-vlc:amd64			install
 pinentry-curses					install
 pinentry-gnome3					install
+pinta						install
 pkg-config					install
 plank						install
 plasma-browser-integration			deinstall
@@ -3669,6 +3719,7 @@ python3-fasteners				install
 python3-fastimport				install
 python3-future					install
 python3-gdbm:amd64				install
+python3-getdevinfo				install
 python3-gi					install
 python3-gi-cairo				install
 python3-github					install
@@ -3800,6 +3851,7 @@ python3-wheel					install
 python3-wrapt					install
 python3-wsaccel					install
 python3-wstool					install
+python3-wxgtk4.0				install
 python3-xdg					install
 python3-xkit					install
 python3-xlib					install
@@ -4154,11 +4206,14 @@ sgml-data					install
 shared-mime-info				install
 sharutils					install
 shiboken2					install
+shotwell					install
+shotwell-common					install
 simple-scan					install
 simplescreenrecorder				install
 simulide					install
 sip-dev						install
 sl						install
+sleuthkit					install
 smartmontools					deinstall
 snapd						install
 socat						install
@@ -4192,7 +4247,9 @@ system-config-printer-udev			install
 system-monitoring-center			install
 system-tools-backends				install
 system76-acpi-dkms				install
-system76-cuda					deinstall
+system76-cuda					install
+system76-cuda-10.2				install
+system76-cudnn-10.2				install
 system76-dkms					install
 system76-io-dkms				install
 system76-power					install
@@ -4223,6 +4280,7 @@ terminology-data				install
 tesseract-ocr					install
 tesseract-ocr-eng				install
 tesseract-ocr-osd				install
+testdisk					install
 tex-common					install
 tex-gyre					install
 texinfo						install
@@ -4450,5 +4508,6 @@ zip						install
 zlib1g:amd64					install
 zlib1g:i386					install
 zlib1g-dev:amd64				install
+zoom						install
 zsh						install
 zsh-common					install

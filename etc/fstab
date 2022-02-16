@@ -9,6 +9,5 @@ PARTUUID=545e9bd0-bf9c-4a6d-a3d5-8967163abade  /boot/efi  vfat  umask=0077  0  0
 UUID="f98bdf25-005e-404a-9fa0-a4cd7dfc43b2" none  swap  defaults  0  0
 UUID=0f7d5113-1b2e-4a0e-98e8-33b5b73c2cd8  /  ext4  noatime,errors=remount-ro  0  0
 UUID="75799861-6b3b-45e1-b679-5ed965dbca52" /home ext4 nosuid,nodev,nofail,x-gvfs-show,x-gvfs-name=HOME 0 0
-UUID="749104EE0DC09738" /mnt/d auto nosuid,nodev,nofail,x-gvfs-show,x-gvfs-name=SSD 0 0
+UUID="3782225E164EAF14"  /mnt/d auto nosuid,nodev,nofail,x-gvfs-show,x-gvfs-name=SSD 0 0
 UUID="754708A84ED82F45" /mnt/f auto nosuid,nodev,nofail,x-gvfs-show,x-gvfs-name=HDD 0 0
-

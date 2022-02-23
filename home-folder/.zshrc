@@ -1,5 +1,5 @@
  export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
- export PATH=$HOME/bin:/usr/local/bin:$HOME/Downloads/platform-tools/:$HOME/.local/share/apache-maven-3.8.2/bin/:$JAVA_HOME/bin:/home/hussein/Downloads/apps/eagle-9.6.2/:$PATH
+ export PATH=$HOME/.bin:$HOME/bin:/usr/local/bin:$HOME/Downloads/platform-tools/:$HOME/.local/share/apache-maven-3.8.2/bin/:$JAVA_HOME/bin:/home/hussein/Downloads/apps/eagle-9.6.2/:$PATH
  source ~/.profile
 # export NVM_DIR="$HOME/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -136,11 +136,13 @@
   alias clp="cd /mnt/d/ClionProjects"
   alias wsp="cd /mnt/d/WebstormProjects"
   alias ideap="cd /mnt/d/IdeaProjects" 
-  alias ard="cd /mnt/d/Arduino/"
+  alias ard="cd /mnt/f/Arduino/"
+  alias mia="cd /mnt/f/mia/"
   alias backup="cd /mnt/f/fresh_linux_install" 
 
 # PATH alias
- export uni='/mnt/f/College/Term5'
+ export uni='/mnt/f/College/Term6'
+ export mia='/mnt/f/mia'
 
  source /opt/ros/noetic/setup.zsh
  source ~/catkin_ws/devel/setup.zsh

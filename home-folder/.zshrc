@@ -1,5 +1,6 @@
  export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
- export PATH=$HOME/.bin:$HOME/bin:/usr/local/bin:$HOME/Downloads/platform-tools/:$HOME/.local/share/apache-maven-3.8.2/bin/:$JAVA_HOME/bin:/home/hussein/Downloads/apps/eagle-9.6.2/:$PATH
+ export CUDA=/usr/local/cuda/bin/
+ export PATH=$HOME/.bin:$HOME/bin:/usr/local/bin:$HOME/Downloads/platform-tools/:$HOME/.local/share/apache-maven-3.8.2/bin/:$JAVA_HOME/bin:$CUDA:$PATH
  source ~/.profile
 # export NVM_DIR="$HOME/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -139,6 +140,7 @@
   alias ard="cd /mnt/f/Arduino/"
   alias mia="cd /mnt/f/mia/"
   alias backup="cd /mnt/f/fresh_linux_install" 
+  alias rcv="cd /mnt/f/mia/robocon_computer-vision/" 
 
 # PATH alias
  export uni='/mnt/f/College/Term6'
@@ -153,3 +155,5 @@
 
  figlet -t hussein
 # colorscript random
+source /opt/ros/noetic/setup.zsh
+source ~/catkin_ws/devel/setup.zsh

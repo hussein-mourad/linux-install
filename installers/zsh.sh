@@ -1,5 +1,9 @@
 #!/bin/bash
 
+
+#Prep
+sudo apt -y install wget curl;
+
 # zsh
 sudo apt -y install zsh;
 

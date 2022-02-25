@@ -115,6 +115,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
 source /opt/ros/noetic/setup.bash
 source ~/catkin_ws/devel/setup.bash

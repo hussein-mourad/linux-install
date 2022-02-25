@@ -28,4 +28,6 @@ sudo apt update -y; sudo apt upgrade -y;sudo apt install -y grub-efi grub2-commo
 ```
 - Add this to grub-customizer > change environment > OUTPUT_FILE=/boot/efi/EFI/pop/grub.cfg
 - stm config: https://cyclic-meadow-5c5.notion.site/Linux-workspace-setup-guide-967954da4f044a8db181dff3964252b8
+- Stm: install stm cude programmer
+- Stm: https://raw.githubusercontent.com/stm32duino/BoardManagerFiles/main/package_stmicroelectronics_index.json
 

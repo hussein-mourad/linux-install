@@ -84,6 +84,7 @@ cabextract					install
 checkinstall					install
 cheese						install
 cheese-common					install
+chemical-mime-data				install
 chrome-gnome-shell				install
 chromium-codecs-ffmpeg-extra			install
 cmake						install
@@ -353,7 +354,6 @@ fuse						install
 fwupd						install
 fwupd-signed					install
 g++						install
-g++-8						install
 g++-9						install
 gamemode					install
 gazebo11					install
@@ -390,6 +390,8 @@ gfortran-9					install
 gh						install
 ghostscript					install
 ghostscript-x					install
+gimp						install
+gimp-data					install
 gir1.2-accountsservice-1.0			install
 gir1.2-atk-1.0:amd64				install
 gir1.2-atspi-2.0:amd64				install
@@ -531,6 +533,7 @@ grep						install
 grilo-plugins-0.3-base:amd64			install
 groff-base					install
 grub-common					install
+grub-customizer					install
 grub-efi-amd64-bin				install
 grub-efi-amd64-signed				install
 grub-gfxpayload-lists				install
@@ -576,6 +579,7 @@ hplip-data					install
 httpie						install
 humanity-icon-theme				install
 hunspell-en-us					install
+hwinfo						install
 hyphen-en-us					install
 i965-va-driver:amd64				install
 ibus						install
@@ -588,7 +592,9 @@ icu-devtools					install
 ignition-tools:amd64				install
 iio-sensor-proxy				install
 im-config					install
+imagemagick					install
 imagemagick-6-common				install
+imagemagick-6.q16				install
 info						install
 init						install
 init-system-helpers				install
@@ -631,11 +637,11 @@ language-selector-common			install
 language-selector-gnome				install
 laptop-detect					install
 less						install
+lib3ds-1-3:amd64				install
 liba52-0.7.4:amd64				install
 libaa1:amd64					install
 libaacs0:amd64					install
 libabw-0.1-1:amd64				install
-libaccinj64-10.1:amd64				install
 libaccountsservice0:amd64			install
 libacl1:amd64					install
 libaec-dev:amd64				install
@@ -644,6 +650,7 @@ libalgorithm-c3-perl				install
 libalgorithm-diff-perl				install
 libalgorithm-diff-xs-perl			install
 libalgorithm-merge-perl				install
+libamd2:amd64					install
 libamtk-5-0:amd64				install
 libamtk-5-common				install
 libann0						install
@@ -725,6 +732,7 @@ libavutil56:amd64				install
 libb-hooks-endofscope-perl			install
 libb-hooks-op-check-perl			install
 libbabeltrace1:amd64				install
+libbabl-0.1-0:amd64				install
 libbamf3-2:amd64				install
 libbcprov-java					install
 libbdplus0:amd64				install
@@ -864,6 +872,7 @@ libcairo-script-interpreter2:amd64		install
 libcairo2:amd64					install
 libcairo2-dev:amd64				install
 libcairomm-1.0-1v5:amd64			install
+libcamd2:amd64					install
 libcamel-1.2-62:amd64				install
 libcanberra-gtk3-0:amd64			install
 libcanberra-gtk3-module:amd64			install
@@ -876,6 +885,7 @@ libcbor0.6:amd64				install
 libcc1-0:amd64					install
 libccd-dev:amd64				install
 libccd2:amd64					install
+libccolamd2:amd64				install
 libcdio-cdda2:amd64				install
 libcdio-paranoia2:amd64				install
 libcdio18:amd64					install
@@ -890,6 +900,7 @@ libcharls-dev:amd64				install
 libcharls2:amd64				install
 libcheese-gtk25:amd64				install
 libcheese8:amd64				install
+libcholmod3:amd64				install
 libchromaprint1:amd64				install
 libclang1-10					install
 libclass-c3-perl				install
@@ -931,40 +942,27 @@ libctf-nobfd0:amd64				install
 libctf0:amd64					install
 libcublas-11-5					install
 libcublas-dev-11-5				install
-libcublas10:amd64				install
-libcublaslt10:amd64				install
-libcudart10.1:amd64				install
 libcudnn8					install
 libcudnn8-dev					install
 libcue2:amd64					install
 libcufft-11-5					install
 libcufft-dev-11-5				install
-libcufft10:amd64				install
-libcufftw10:amd64				install
 libcufile-11-5					install
 libcufile-11-6					install
 libcufile-dev-11-5				install
 libcufile-dev-11-6				install
-libcuinj64-10.1:amd64				install
 libcups2:amd64					install
 libcupsfilters1:amd64				install
 libcupsimage2:amd64				install
-libcupti-dev:amd64				install
-libcupti-doc					install
-libcupti10.1:amd64				install
 libcurand-11-5					install
 libcurand-dev-11-5				install
-libcurand10:amd64				install
 libcurl3-gnutls:amd64				install
 libcurl4:amd64					install
 libcurl4-openssl-dev:amd64			install
 libcusolver-11-5				install
 libcusolver-dev-11-5				install
-libcusolver10:amd64				install
-libcusolvermg10:amd64				install
 libcusparse-11-5				install
 libcusparse-dev-11-5				install
-libcusparse10:amd64				install
 libdaemon0:amd64				install
 libdap-dev:amd64				install
 libdap25:amd64					install
@@ -999,6 +997,7 @@ libdc1394-22:amd64				install
 libdc1394-22-dev:amd64				install
 libdcmtk14					install
 libdconf1:amd64					install
+libde265-0:amd64				install
 libdebconfclient0:amd64				install
 libdebhelper-perl				install
 libdee-1.0-4:amd64				install
@@ -1069,6 +1068,7 @@ libegl-mesa0:amd64				install
 libegl-mesa0:i386				install
 libegl1:amd64					install
 libegl1:i386					install
+libegl1-mesa:amd64				install
 libegl1-mesa-dev:amd64				install
 libeigen3-dev					install
 libeina1a:amd64					install
@@ -1222,6 +1222,8 @@ libgdk-pixbuf2.0-common				install
 libgdk-pixbuf2.0-dev:amd64			install
 libgdm1						install
 libgee-0.8-2:amd64				install
+libgegl-0.4-0:amd64				install
+libgegl-common					install
 libgeoclue-2-0:amd64				install
 libgeocode-glib0:amd64				install
 libgeos-3.8.0:amd64				install
@@ -1237,6 +1239,7 @@ libgfortran-9-dev:amd64				install
 libgfortran5:amd64				install
 libgif-dev					install
 libgif7:amd64					install
+libgimp2.0					install
 libgirepository-1.0-1:amd64			install
 libgit2-28:amd64				install
 libgit2-glib-1.0-0:amd64			install
@@ -1247,6 +1250,7 @@ libgl1:i386					install
 libgl1-mesa-dev:amd64				install
 libgl1-mesa-dri:amd64				install
 libgl1-mesa-dri:i386				install
+libgl1-mesa-glx:amd64				install
 libgl2ps-dev					install
 libgl2ps1.4					install
 libglapi-mesa:amd64				install
@@ -1371,6 +1375,7 @@ libharfbuzz-gobject0:amd64			install
 libharfbuzz-icu0:amd64				install
 libharfbuzz0b:amd64				install
 libhcrypto4-heimdal:amd64			install
+libhd21:amd64					install
 libhdf4-0-alt					install
 libhdf4-alt-dev					install
 libhdf5-103:amd64				install
@@ -1379,6 +1384,7 @@ libhdf5-dev					install
 libhdf5-mpi-dev					install
 libhdf5-openmpi-103:amd64			install
 libhdf5-openmpi-dev				install
+libheif1:amd64					install
 libheimbase1-heimdal:amd64			install
 libheimntlm0-heimdal:amd64			install
 libhidapi-libusb0:amd64				install
@@ -1554,6 +1560,8 @@ libmad0:amd64					install
 libmagic-mgc					install
 libmagic1:amd64					install
 libmagickcore-6.q16-6:amd64			install
+libmagickcore-6.q16-6-extra:amd64		install
+libmagickwand-6.q16-6:amd64			install
 libmail-sendmail-perl				install
 libmailtools-perl				install
 libmaxminddb0:amd64				install
@@ -1564,6 +1572,7 @@ libmbim-glib4:amd64				install
 libmbim-proxy					install
 libmediaart-2.0-0:amd64				install
 libmessaging-menu0:amd64			install
+libmetis5:amd64					install
 libmhash2:amd64					install
 libmime-charset-perl				install
 libmime-lite-perl				install
@@ -1572,6 +1581,7 @@ libminiupnpc17:amd64				install
 libminizip-dev:amd64				install
 libminizip1:amd64				install
 libmm-glib0:amd64				install
+libmng2:amd64					install
 libmnl0:amd64					install
 libmodule-implementation-perl			install
 libmodule-runtime-perl				install
@@ -1593,10 +1603,13 @@ libmtdev1:amd64					install
 libmtp-common					install
 libmtp-runtime					install
 libmtp9:amd64					install
+libmuparser2v5:amd64				install
 libmusicbrainz5-2:amd64				install
 libmusicbrainz5cc2v5:amd64			install
 libmutter-6-0:amd64				install
 libmwaw-0.3-3:amd64				install
+libmypaint-1.5-1:amd64				install
+libmypaint-common				install
 libmysofa1:amd64				install
 libmysqlclient-dev				install
 libmysqlclient21:amd64				install
@@ -1605,7 +1618,6 @@ libnamespace-autoclean-perl			install
 libnamespace-clean-perl				install
 libnatpmp1:amd64				install
 libnautilus-extension1a:amd64			install
-libncurses5:amd64				install
 libncurses6:amd64				install
 libncursesw6:amd64				install
 libndp0:amd64					install
@@ -1619,6 +1631,7 @@ libnetcdf-cxx-legacy-dev			install
 libnetcdf-dev					install
 libnetcdf15:amd64				install
 libnetfilter-conntrack3:amd64			install
+libnetpbm10					install
 libnetplan0:amd64				install
 libnettle7:amd64				install
 libnewt0.52:amd64				install
@@ -1640,18 +1653,6 @@ libnotify-bin					install
 libnotify4:amd64				install
 libnpp-11-5					install
 libnpp-dev-11-5					install
-libnppc10:amd64					install
-libnppial10:amd64				install
-libnppicc10:amd64				install
-libnppicom10:amd64				install
-libnppidei10:amd64				install
-libnppif10:amd64				install
-libnppig10:amd64				install
-libnppim10:amd64				install
-libnppist10:amd64				install
-libnppisu10:amd64				install
-libnppitc10:amd64				install
-libnpps10:amd64					install
 libnpth0:amd64					install
 libnspr4:amd64					install
 libnss-mdns:amd64				install
@@ -1660,8 +1661,6 @@ libnss3:amd64					install
 libntfs-3g883					install
 libnuma-dev:amd64				install
 libnuma1:amd64					install
-libnvblas10:amd64				install
-libnvgraph10:amd64				install
 libnvidia-cfg1-510:amd64			install
 libnvidia-common-510				install
 libnvidia-compute-510:amd64			install
@@ -1675,13 +1674,8 @@ libnvidia-fbc1-510:amd64			install
 libnvidia-fbc1-510:i386				install
 libnvidia-gl-510:amd64				install
 libnvidia-gl-510:i386				install
-libnvidia-ml-dev				install
 libnvjpeg-11-5					install
 libnvjpeg-dev-11-5				install
-libnvjpeg10:amd64				install
-libnvrtc10.1:amd64				install
-libnvtoolsext1:amd64				install
-libnvvm3:amd64					install
 libobjc4:amd64					install
 liboctomap-dev:amd64				install
 liboctomap1.9:amd64				install
@@ -1706,6 +1700,7 @@ libopencore-amrnb-dev:amd64			install
 libopencore-amrnb0:amd64			install
 libopencore-amrwb-dev:amd64			install
 libopencore-amrwb0:amd64			install
+libopenctm1:amd64				install
 libopencv-calib3d-dev:amd64			install
 libopencv-calib3d4.2:amd64			install
 libopencv-contrib-dev:amd64			install
@@ -1945,6 +1940,7 @@ libqt5quickparticles5:amd64			install
 libqt5quickshapes5:amd64			install
 libqt5quicktest5:amd64				install
 libqt5quickwidgets5:amd64			install
+libqt5script5:amd64				install
 libqt5sensors5:amd64				install
 libqt5sql5:amd64				install
 libqt5sql5-sqlite:amd64				install
@@ -1956,6 +1952,7 @@ libqt5webkit5-dev:amd64				install
 libqt5widgets5:amd64				install
 libqt5x11extras5:amd64				install
 libqt5xml5:amd64				install
+libqt5xmlpatterns5:amd64			install
 libquadmath0:amd64				install
 libqwt-qt5-6					install
 libqwt-qt5-dev					install
@@ -2137,13 +2134,11 @@ libthai-dev:amd64				install
 libthai0:amd64					install
 libtheora-dev:amd64				install
 libtheora0:amd64				install
-libthrust-dev					install
 libtie-ixhash-perl				install
 libtiff-dev:amd64				install
 libtiff5:amd64					install
 libtiffxx5:amd64				install
 libtimedate-perl				install
-libtinfo5:amd64					install
 libtinfo6:amd64					install
 libtinfo6:i386					install
 libtinyxml-dev:amd64				install
@@ -2169,6 +2164,7 @@ libubsan1:amd64					install
 libuchardet0:amd64				install
 libudev1:amd64					install
 libudisks2-0:amd64				install
+libumfpack5:amd64				install
 libunicode-linebreak-perl			install
 libunistring2:amd64				install
 libunistring2:i386				install
@@ -2211,7 +2207,6 @@ libva-x11-2:amd64				install
 libva2:amd64					install
 libvamp-hostsdk3v5:amd64			install
 libvariable-magic-perl				install
-libvdpau-dev:amd64				install
 libvdpau1:amd64					install
 libvidstab1.1:amd64				install
 libvisio-0.1-1:amd64				install
@@ -2283,6 +2278,7 @@ libx11-xcb1:i386				install
 libx264-155:amd64				install
 libx264-dev:amd64				install
 libx265-179:amd64				install
+libx86emu2:amd64				install
 libxapian30:amd64				install
 libxatracker2:amd64				install
 libxau-dev:amd64				install
@@ -2454,6 +2450,7 @@ mesa-va-drivers:amd64				install
 mesa-vdpau-drivers:amd64			install
 mesa-vulkan-drivers:amd64			install
 mesa-vulkan-drivers:i386			install
+meshlab						install
 mime-support					install
 mknfonts.tool					install
 mobile-broadband-provider-info			install
@@ -2481,6 +2478,7 @@ ncurses-base					install
 ncurses-bin					install
 netbase						install
 netcat-openbsd					install
+netpbm						install
 netplan.io					install
 network-manager					install
 network-manager-config-connectivity-ubuntu	install
@@ -2490,7 +2488,6 @@ network-manager-openvpn-gnome			install
 network-manager-pptp				install
 network-manager-pptp-gnome			install
 networkd-dispatcher				install
-node-html5shiv					install
 node-typescript					install
 nodejs						install
 nodejs-doc					install
@@ -2498,10 +2495,6 @@ nsight-compute-2021.3.1				install
 nsight-systems-2021.3.3				install
 ntfs-3g						install
 nvidia-compute-utils-510			install
-nvidia-cuda-dev					install
-nvidia-cuda-doc					install
-nvidia-cuda-gdb					install
-nvidia-cuda-toolkit				install
 nvidia-dkms-510					install
 nvidia-driver-510				install
 nvidia-fs					install
@@ -2511,17 +2504,12 @@ nvidia-gds-11-6					install
 nvidia-kernel-common-510			install
 nvidia-kernel-source-510			install
 nvidia-modprobe					install
-nvidia-opencl-dev:amd64				install
 nvidia-prime					install
-nvidia-profiler					install
 nvidia-settings					install
 nvidia-utils-510				install
-nvidia-visual-profiler				install
 ocl-icd-libopencl1:amd64			install
-ocl-icd-opencl-dev:amd64			install
 odbcinst					install
 odbcinst1debian2:amd64				install
-opencl-c-headers				install
 opencv-data					install
 openjdk-11-jre:amd64				install
 openjdk-11-jre-headless:amd64			install
@@ -2550,6 +2538,7 @@ pcmciautils					install
 pdftk						install
 pdftk-java					install
 peek						install
+pensela						install
 perl						install
 perl-base					install
 perl-modules-5.30				install

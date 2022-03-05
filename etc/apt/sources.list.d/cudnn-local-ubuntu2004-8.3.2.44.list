@@ -1,1 +1,1 @@
-deb file:///var/cudnn-local-repo-ubuntu2004-8.3.2.44 /
+deb [trusted=yes] file:///var/cudnn-local-repo-ubuntu2004-8.3.2.44 /

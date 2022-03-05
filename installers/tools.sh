@@ -30,6 +30,8 @@ sudo apt -y install mdless glow;
 sudo apt -y install pdftk;
 sudo apt -y install blender audacity;
 sudo apt -y install grub-customizer;
+sudo apt -y install gimp;
+sudo apt -y install mpv;
 
 # sudo snap install cmake --classic;
 

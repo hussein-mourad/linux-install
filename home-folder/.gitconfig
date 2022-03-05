@@ -3,7 +3,6 @@
 	name = Hussein-Mourad
 	signingkey = C92BAB7BDBDE47C5
 [credential "https://github.com"]
-	helper = 
 	helper = !/usr/bin/gh auth git-credential
 [core]
 	editor = vim

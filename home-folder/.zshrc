@@ -1,6 +1,8 @@
  export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
  export CUDA=/usr/local/cuda/bin/
- export PATH=$HOME/.bin:$HOME/bin:/usr/local/bin:$HOME/Downloads/platform-tools/:$HOME/.local/share/apache-maven-3.8.2/bin/:$JAVA_HOME/bin:$CUDA:$PATH
+ export CUDA11=/usr/local/cuda-11.5/bin/
+ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-11.5/lib64:/usr/local/opencv4
+ export PATH=$HOME/.bin:$HOME/bin:/usr/local/bin:$HOME/Downloads/platform-tools/:$HOME/.local/share/apache-maven-3.8.2/bin/:$JAVA_HOME/bin:$CUDA:$CUDA11:$PATH
  source ~/.profile
 # export NVM_DIR="$HOME/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -145,31 +147,28 @@
 # PATH alias
  export uni='/mnt/f/College/Term6'
  export mia='/mnt/f/mia'
+ export rcv="/mnt/f/mia/robocon_computer-vision/" 
 
  source /opt/ros/noetic/setup.zsh
  source ~/catkin_ws/devel/setup.zsh
 
 # bash ~/Downloads/pfetch-0.6.0/pfetch
- source /opt/ros/noetic/setup.zsh
- source ~/catkin_ws/devel/setup.zsh
 
  figlet -t hussein
 # colorscript random
-source /opt/ros/noetic/setup.zsh
-source ~/catkin_ws/devel/setup.zsh
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/hussein/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/hussein/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/hussein/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/hussein/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
+ # >>> conda initialize >>>
+ # !! Contents within this block are managed by 'conda init' !!
+ __conda_setup="$('/home/hussein/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+ if [ $? -eq 0 ]; then
+     eval "$__conda_setup"
+ else
+     if [ -f "/home/hussein/anaconda3/etc/profile.d/conda.sh" ]; then
+          . "/home/hussein/anaconda3/etc/profile.d/conda.sh"
+      else
+          export PATH="/home/hussein/anaconda3/bin:$PATH"
+      fi
+  fi
+  unset __conda_setup
+  # <<< conda initialize <<<
 

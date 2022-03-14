@@ -20,7 +20,7 @@ export GIO_EXTRA_MODULES=/usr/lib/x86_64-linux-gnu/gio/modules/
 # 1. Retrieve the ID: `dconf dump /org/gnome/terminal/legacy/profiles:/ | awk '/\[:/||/visible-name=/'`
 # 2. Set which one to use for Dark and Light mode.
 TERMINAL_LIGHT=cbe9eff5-e0d6-4d58-9a68-655f22f54fa6 # Light theme
-TERMINAL_DARK=6178d070-33a6-4d4d-beef-25713333e9b8 # Dark theme
+TERMINAL_DARK=b689a5ed-7088-4ddd-aea2-b8adee6a5dd9 # Dark theme
 
 # GTK3 Themes
 # MacOS 11: https://www.pling.com/p/1220826

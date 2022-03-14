@@ -12,3 +12,4 @@ rsync -a --info=progress2 -h /etc/fstab $DEST/etc/fstab
 rsync -a --info=progress2 -h $HOME/.zshrc $HOME/.themes $HOME/.icons $HOME/.fonts $HOME/.bashrc $HOME/.vimrc $HOME/.SpaceVim.d $HOME/.vim_back $HOME/.gitconfig $DEST/home-folder
 rsync -a --info=progress2 -h $HOME/.config/i3 $HOME/.config/autostart $DEST/.config
 rsync -a --info=progress2 -h $HOME/.local/bin/ $DEST/.local/bin/
+rsync -a --info=progress2 -h $HOME/toggle-gnome-themes.sh $DEST/

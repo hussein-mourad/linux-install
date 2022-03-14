@@ -140,6 +140,7 @@ dbus-user-session				install
 dbus-x11					install
 dc						install
 dconf-cli					install
+dconf-editor					install
 dconf-gsettings-backend:amd64			install
 dconf-service					install
 dctrl-tools					install
@@ -1200,7 +1201,6 @@ libfribidi0:amd64				install
 libftdi1:amd64					install
 libfuse2:amd64					install
 libfwupd2:amd64					install
-libfwupdplugin1:amd64				install
 libfwupdplugin5:amd64				install
 libfyba-dev:amd64				install
 libfyba0:amd64					install

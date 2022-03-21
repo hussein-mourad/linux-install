@@ -2,7 +2,8 @@
  export CUDA=/usr/local/cuda/bin/
  export CUDA11=/usr/local/cuda-11.5/bin/
  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-11.5/lib64:/usr/local/opencv4
- export PATH=$HOME/.bin:$HOME/bin:/usr/local/bin:$HOME/Downloads/platform-tools/:$HOME/.local/share/apache-maven-3.8.2/bin/:$JAVA_HOME/bin:$CUDA:$CUDA11:$PATH
+ export ZED=/usr/local/zed/tools/
+ export PATH=$HOME/.bin:$HOME/bin:/usr/local/bin:$HOME/Downloads/platform-tools/:$HOME/.local/share/apache-maven-3.8.2/bin/:$JAVA_HOME/bin:$CUDA:$CUDA11:$ZED:$PATH
  source ~/.profile
 # export NVM_DIR="$HOME/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -21,8 +22,9 @@
  antigen bundle zsh-users/zsh-completions;
  antigen bundle jeffreytse/zsh-vi-mode;
 
-# antigen theme agnoster 
- antigen theme strug 
+antigen theme agnoster 
+# antigen theme strug 
+# antigen theme robbyrussell 
 
  antigen apply;
  
@@ -143,14 +145,17 @@
   alias mia="cd /mnt/f/mia/"
   alias backup="cd /mnt/f/fresh_linux_install" 
   alias rcv="cd /mnt/f/mia/robocon_computer-vision/" 
+  alias robocon22="cd /mnt/f/mia/Robocon_22/" 
 
 # PATH alias
  export uni='/mnt/f/College/Term6'
  export mia='/mnt/f/mia'
  export rcv="/mnt/f/mia/robocon_computer-vision/" 
+ export robocon22="/mnt/f/mia/Robocon_22/" 
 
  source /opt/ros/noetic/setup.zsh
- source ~/catkin_ws/devel/setup.zsh
+# source ~/catkin_ws/devel/setup.zsh
+# source $robocon22/robocon_ws/devel/setup.zsh
 
 # bash ~/Downloads/pfetch-0.6.0/pfetch
 

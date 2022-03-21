@@ -685,6 +685,7 @@ libasm-java					install
 libasn1-8-heimdal:amd64				install
 libasound2:amd64				install
 libasound2-data					install
+libasound2-dev:amd64				install
 libasound2-plugins:amd64			install
 libaspell15:amd64				install
 libass9:amd64					install
@@ -868,6 +869,7 @@ libc6:amd64					install
 libc6:i386					install
 libc6-dbg:amd64					install
 libc6-dev:amd64					install
+libcaca-dev					install
 libcaca0:amd64					install
 libcaf-openmpi-3:amd64				install
 libcairo-gobject-perl				install
@@ -1243,6 +1245,8 @@ libgegl-0.4-0:amd64				install
 libgegl-common					install
 libgeoclue-2-0:amd64				install
 libgeocode-glib0:amd64				install
+libgeographic-dev				install
+libgeographic19:amd64				install
 libgeos-3.8.0:amd64				install
 libgeos-c1v5:amd64				install
 libgeos-dev					install
@@ -2081,6 +2085,7 @@ libpstoedit0c2a:amd64				install
 libptexenc1:amd64				install
 libpthread-stubs0-dev:amd64			install
 libpugixml1v5:amd64				install
+libpulse-dev:amd64				install
 libpulse-mainloop-glib0:amd64			install
 libpulse0:amd64					install
 libpulsedsp:amd64				install
@@ -2218,6 +2223,8 @@ libsctp1:amd64					install
 libsdformat9:amd64				install
 libsdformat9-dev:amd64				install
 libsdl-image1.2:amd64				install
+libsdl-image1.2-dev:amd64			install
+libsdl1.2-dev					install
 libsdl1.2debian:amd64				install
 libsdl2-2.0-0:amd64				install
 libseccomp2:amd64				install
@@ -2252,6 +2259,7 @@ libsisu-inject-java				install
 libsisu-ioc-java				install
 libsisu-plexus-java				install
 libslang2:amd64					install
+libslang2-dev:amd64				install
 libslf4j-java					install
 libslicot0:amd64				install
 libsm-dev:amd64					install
@@ -3091,6 +3099,7 @@ rhythmbox-plugins				install
 ros-noetic-actionlib				install
 ros-noetic-actionlib-msgs			install
 ros-noetic-actionlib-tutorials			install
+ros-noetic-amcl					install
 ros-noetic-angles				install
 ros-noetic-bond					install
 ros-noetic-bond-core				install
@@ -3114,6 +3123,7 @@ ros-noetic-controller-manager-msgs		install
 ros-noetic-cpp-common				install
 ros-noetic-cv-bridge				install
 ros-noetic-depth-image-proc			install
+ros-noetic-depthimage-to-laserscan		install
 ros-noetic-desktop				install
 ros-noetic-desktop-full				install
 ros-noetic-diagnostic-aggregator		install
@@ -3140,6 +3150,7 @@ ros-noetic-genlisp				install
 ros-noetic-genmsg				install
 ros-noetic-gennodejs				install
 ros-noetic-genpy				install
+ros-noetic-geographic-msgs			install
 ros-noetic-geometry				install
 ros-noetic-geometry-msgs			install
 ros-noetic-geometry-tutorials			install
@@ -3168,6 +3179,7 @@ ros-noetic-laser-geometry			install
 ros-noetic-laser-pipeline			install
 ros-noetic-librviz-tutorial			install
 ros-noetic-map-msgs				install
+ros-noetic-map-server				install
 ros-noetic-media-export				install
 ros-noetic-message-filters			install
 ros-noetic-message-generation			install
@@ -3196,6 +3208,7 @@ ros-noetic-qwt-dependency			install
 ros-noetic-realtime-tools			install
 ros-noetic-resource-retriever			install
 ros-noetic-robot				install
+ros-noetic-robot-localization			install
 ros-noetic-robot-state-publisher		install
 ros-noetic-ros					install
 ros-noetic-ros-base				install
@@ -3282,6 +3295,7 @@ ros-noetic-rqt-top				install
 ros-noetic-rqt-topic				install
 ros-noetic-rqt-web				install
 ros-noetic-rviz					install
+ros-noetic-rviz-imu-plugin			install
 ros-noetic-rviz-plugin-tutorials		install
 ros-noetic-rviz-python-tutorial			install
 ros-noetic-self-test				install
@@ -3319,6 +3333,7 @@ ros-noetic-urdf					install
 ros-noetic-urdf-parser-plugin			install
 ros-noetic-urdf-sim-tutorial			install
 ros-noetic-urdf-tutorial			install
+ros-noetic-uuid-msgs				install
 ros-noetic-vision-opencv			install
 ros-noetic-visualization-marker-tutorials	install
 ros-noetic-visualization-msgs			install

@@ -22,8 +22,8 @@
  antigen bundle zsh-users/zsh-completions;
  antigen bundle jeffreytse/zsh-vi-mode;
 
-antigen theme agnoster 
-# antigen theme strug 
+# antigen theme agnoster 
+  antigen theme strug 
 # antigen theme robbyrussell 
 
  antigen apply;
@@ -177,3 +177,4 @@ antigen theme agnoster
   unset __conda_setup
   # <<< conda initialize <<<
 
+source /usr/share/bash-completion/completions/nala

@@ -2102,6 +2102,9 @@ libpython3.8:amd64				install
 libpython3.8-dev:amd64				install
 libpython3.8-minimal:amd64			install
 libpython3.8-stdlib:amd64			install
+libpython3.9:amd64				install
+libpython3.9-minimal:amd64			install
+libpython3.9-stdlib:amd64			install
 libqca-qt5-2:amd64				install
 libqca-qt5-2-plugins:amd64			install
 libqhull-dev:amd64				install
@@ -2723,6 +2726,7 @@ mutter						install
 mutter-common					install
 mysql-common					install
 mythes-en-us					install
+nala						install
 nano						install
 nautilus					install
 nautilus-data					install
@@ -2898,6 +2902,7 @@ python3-distupgrade				install
 python3-distutils				install
 python3-docutils				install
 python3-dulwich					install
+python3-editorconfig				install
 python3-empy					install
 python3-enchant					install
 python3-entrypoints				install
@@ -2918,6 +2923,7 @@ python3-hyperlink				install
 python3-ibus-1.0				install
 python3-idna					install
 python3-incremental				install
+python3-jsbeautifier				install
 python3-jwt					install
 python3-keyring					install
 python3-kiwisolver				install
@@ -2989,6 +2995,7 @@ python3-reportlab-accel:amd64			install
 python3-requests				install
 python3-requests-unixsocket			install
 python3-rfc3339					install
+python3-rfc3986					install
 python3-roman					install
 python3-rosdep					install
 python3-rosdep-modules				install
@@ -3007,6 +3014,7 @@ python3-sip					install
 python3-sip-dev					install
 python3-six					install
 python3-snappy					install
+python3-sniffio					install
 python3-software-properties			install
 python3-soupsieve				install
 python3-speechd					install
@@ -3020,6 +3028,7 @@ python3-trie					install
 python3-twisted					install
 python3-twisted-bin:amd64			install
 python3-txaio					install
+python3-typing-extensions			install
 python3-tz					install
 python3-u-msgpack				install
 python3-ubjson					install

@@ -1,6 +1,6 @@
 #! /usr/bin/zsh
 
-autoload bashcompinit;
-bashcompinit;
+echo 'autoload bashcompinit' >> ~/.zshrc;
+echo 'bashcompinit' >> ~/.zshrc;
 echo 'source /usr/share/bash-completion/completions/nala' >> ~/.zshrc
 

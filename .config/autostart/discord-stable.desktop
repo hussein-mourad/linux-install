@@ -6,4 +6,4 @@ NoDisplay=false
 Name=Discord
 Icon=/usr/share/discord/discord.png
 Comment=Text and voice chat for gamers.
-X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-enabled=false

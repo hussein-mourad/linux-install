@@ -162,6 +162,7 @@ discord						install
 distro-info					install
 distro-info-data				install
 dkms						install
+dleyna-server					install
 dmidecode					install
 dmsetup						install
 dmz-cursor-theme				install
@@ -188,6 +189,7 @@ enchant-2					install
 eog						install
 epstool						install
 espeak-ng-data:amd64				install
+ethtool						install
 evince						install
 evince-common					install
 evolution-data-server				install
@@ -206,6 +208,7 @@ findutils					install
 firefox						install
 firefox-locale-en				install
 flameshot					install
+flatpak						install
 fltk1.3-doc					install
 fluid						install
 fontconfig					install
@@ -375,6 +378,7 @@ gir1.2-clutter-1.0:amd64			install
 gir1.2-clutter-gst-3.0:amd64			install
 gir1.2-cogl-1.0:amd64				install
 gir1.2-coglpango-1.0:amd64			install
+gir1.2-dazzle-1.0:amd64				install
 gir1.2-dbusmenu-glib-0.4:amd64			install
 gir1.2-dee-1.0					install
 gir1.2-evince-3.0:amd64				install
@@ -391,6 +395,7 @@ gir1.2-gnomebluetooth-1.0:amd64			install
 gir1.2-gnomedesktop-3.0:amd64			install
 gir1.2-goa-1.0:amd64				install
 gir1.2-graphene-1.0:amd64			install
+gir1.2-grilo-0.3:amd64				install
 gir1.2-gst-plugins-base-1.0:amd64		install
 gir1.2-gstreamer-1.0:amd64			install
 gir1.2-gtk-2.0:amd64				install
@@ -405,6 +410,7 @@ gir1.2-ibus-1.0:amd64				install
 gir1.2-javascriptcoregtk-4.0:amd64		install
 gir1.2-json-1.0:amd64				install
 gir1.2-keybinder-3.0				install
+gir1.2-mediaart-2.0:amd64			install
 gir1.2-mutter-6:amd64				install
 gir1.2-nm-1.0:amd64				install
 gir1.2-nma-1.0:amd64				install
@@ -420,6 +426,7 @@ gir1.2-snapd-1:amd64				install
 gir1.2-soup-2.4:amd64				install
 gir1.2-totem-1.0:amd64				install
 gir1.2-totemplparser-1.0:amd64			install
+gir1.2-tracker-2.0:amd64			install
 gir1.2-udisks-2.0:amd64				install
 gir1.2-unity-5.0:amd64				install
 gir1.2-upowerglib-1.0:amd64			install
@@ -453,6 +460,7 @@ gnome-logs					install
 gnome-mahjongg					install
 gnome-menus					install
 gnome-mines					install
+gnome-music					install
 gnome-online-accounts				install
 gnome-power-manager				install
 gnome-screenshot				install
@@ -508,7 +516,9 @@ gpgsm						install
 gpgv						install
 graphviz					install
 grep						install
+grilo-plugins-0.3				install
 grilo-plugins-0.3-base:amd64			install
+grilo-plugins-0.3-extra:amd64			install
 grim						install
 groff-base					install
 grub-common					install
@@ -663,6 +673,7 @@ libapache-pom-java				install
 libapparmor1:amd64				install
 libappindicator1				install
 libappindicator3-1				install
+libappstream-glib8:amd64			install
 libappstream4:amd64				install
 libapr1:amd64					install
 libapr1-dev					install
@@ -1018,6 +1029,8 @@ libdevmapper1.02.1:amd64			install
 libdist-checkconflicts-perl			install
 libdjvulibre-text				install
 libdjvulibre21:amd64				install
+libdleyna-connector-dbus-1.0-1:amd64		install
+libdleyna-core-1.0-5:amd64			install
 libdmapsharing-3.0-2:amd64			install
 libdns-export1109				install
 libdom4j-java					install
@@ -1843,6 +1856,7 @@ libnvidia-fbc1-510:amd64			install
 libnvidia-fbc1-510:i386				install
 libnvidia-gl-510:amd64				install
 libnvidia-gl-510:i386				install
+liboauth0:amd64					install
 libobjc4:amd64					install
 liboctave7:amd64				install
 liboctomap-dev:amd64				install
@@ -1938,6 +1952,7 @@ liborocos-kdl-dev:amd64				install
 liborocos-kdl1.4				install
 libosdcpu3.4.0:amd64				install
 libosdgpu3.4.0:amd64				install
+libostree-1-1:amd64				install
 libp11-kit0:amd64				install
 libpackage-stash-perl				install
 libpackage-stash-xs-perl			install
@@ -2155,7 +2170,10 @@ libqt5x11extras5:amd64				install
 libqt5xml5:amd64				install
 libqt5xmlpatterns5:amd64			install
 libquadmath0:amd64				install
+libquazip5-1:amd64				install
 libquicktime2:amd64				install
+libquvi-0.9-0.9.3:amd64				install
+libquvi-scripts-0.9				install
 libqwt-qt5-6					install
 libqwt-qt5-dev					install
 libraptor2-0:amd64				install
@@ -2380,6 +2398,7 @@ libtinyxml2.6.2v5:amd64				install
 libtk8.6:amd64					install
 libtool						install
 libtotem-plparser-common			install
+libtotem-plparser-videosite:amd64		install
 libtotem-plparser18:amd64			install
 libtotem0:amd64					install
 libtracker-control-2.0-0:amd64			install
@@ -2517,6 +2536,7 @@ libx11-xcb1:i386				install
 libx264-155:amd64				install
 libx264-dev:amd64				install
 libx265-179:amd64				install
+libx86-1:amd64					install
 libx86emu2:amd64				install
 libxapian30:amd64				install
 libxatracker2:amd64				install
@@ -2660,21 +2680,26 @@ linux-firmware					install
 linux-generic-hwe-20.04				install
 linux-headers-5.13.0-30-generic			install
 linux-headers-5.13.0-35-generic			install
+linux-headers-5.13.0-37-generic			install
 linux-headers-5.4.0-26				install
 linux-headers-5.4.0-26-generic			install
 linux-headers-generic-hwe-20.04			install
 linux-hwe-5.13-headers-5.13.0-30		install
 linux-hwe-5.13-headers-5.13.0-35		install
-linux-image-5.13.0-30-generic			install
+linux-hwe-5.13-headers-5.13.0-37		install
+linux-image-5.13.0-30-generic			deinstall
 linux-image-5.13.0-35-generic			install
+linux-image-5.13.0-37-generic			install
 linux-image-5.4.0-26-generic			deinstall
 linux-image-generic-hwe-20.04			install
 linux-libc-dev:amd64				install
-linux-modules-5.13.0-30-generic			install
+linux-modules-5.13.0-30-generic			deinstall
 linux-modules-5.13.0-35-generic			install
+linux-modules-5.13.0-37-generic			install
 linux-modules-5.4.0-26-generic			deinstall
-linux-modules-extra-5.13.0-30-generic		install
+linux-modules-extra-5.13.0-30-generic		deinstall
 linux-modules-extra-5.13.0-35-generic		install
+linux-modules-extra-5.13.0-37-generic		install
 linux-modules-extra-5.4.0-26-generic		deinstall
 linux-sound-base				install
 lm-sensors					install
@@ -2691,6 +2716,13 @@ lsd						install
 lshw						install
 lsof						install
 ltrace						install
+lua-bitop:amd64					install
+lua-expat:amd64					install
+lua-json					install
+lua-lpeg:amd64					install
+lua-socket:amd64				install
+lynx						install
+lynx-common					install
 lz4						install
 m4						install
 make						install
@@ -2817,6 +2849,7 @@ plymouth					install
 plymouth-label					install
 plymouth-theme-spinner				install
 plymouth-theme-ubuntu-text			install
+pm-utils					install
 po-debconf					install
 policykit-1					install
 policykit-desktop-privileges			install
@@ -3442,6 +3475,9 @@ texlive-latex-extra				install
 texlive-latex-recommended			install
 texlive-pictures				install
 texlive-plain-generic				install
+texstudio					install
+texstudio-doc					install
+texstudio-l10n					install
 thermald					install
 thunderbird					install
 thunderbird-gnome-support			install
@@ -3513,6 +3549,7 @@ uuid-dev:amd64					install
 uuid-runtime					install
 v4l-utils					install
 va-driver-all:amd64				install
+vbetool						install
 vdpau-driver-all:amd64				install
 vim						install
 vim-common					install

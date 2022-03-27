@@ -135,6 +135,11 @@ toggle-theme
 # Open plank
 plank & disown;
 
+# Change window button placement
+gsettings set org.gnome.desktop.wm.preferences button-layout 'close,minimize,maximize:';
+
+# Swap caps and escape
+gsettings set org.gnome.desktop.input-sources xkb-options [\'caps:swapescape\']
 
 # Set gnome extensions
 gnome-extensions enable InternetSpeedMonitor@Rishu

@@ -176,5 +176,8 @@
   fi
   unset __conda_setup
   # <<< conda initialize <<<
-
-source /usr/share/bash-completion/completions/nala
+  
+  
+autoload bashcompinit;
+bashcompinit;
+source /usr/share/bash-completion/completions/nala;

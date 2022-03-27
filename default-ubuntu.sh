@@ -135,35 +135,41 @@ toggle-theme
 # Kill plank
 pkill plank
 
+# Change windows tiltebar button placement
+gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize,close'
+
+# Swap caps and escape
+gsettings set org.gnome.desktop.input-sources xkb-options []
+
 # Disable gnome-extensions
-gnome-extensions disable InternetSpeedMonitor@Rishu
-gnome-extensions disable activate_gnome@isjerryxiao
-gnome-extensions disable dell-command-configure-menu@vsimkus.github.io
-gnome-extensions disable surf@diegonz.github.io
-gnome-extensions disable mousefollowsfocus@matthes.biz
-gnome-extensions disable workspace-switch-wraparound@theychx.org
-gnome-extensions disable workspaces-bar@fthx
-gnome-extensions disable ding@rastersoft.com
-gnome-extensions disable improved-workspace-indicator@michaelaquilina.github.io
-gnome-extensions disable inotch@alynx.one
-gnome-extensions disable gsconnect@andyholmes.github.io
-gnome-extensions disable impatience@gfxmonk.net
-gnome-extensions disable workspace_scroll@squgeim.com.np
-gnome-extensions disable soft-brightness@fifi.org
-gnome-extensions disable horizontal-workspaces@gnome-shell-extensions.gcampax.github.com
-gnome-extensions disable hibernate-status@dromi
-gnome-extensions disable user-theme@gnome-shell-extensions.gcampax.github.com
-gnome-extensions disable drive-menu@gnome-shell-extensions.gcampax.github.com
-gnome-extensions disable sound-output-device-chooser@kgshank.net
-gnome-extensions disable HijriCalendar@oxygenws.com
-gnome-extensions disable Vitals@CoreCoding.com
-gnome-extensions disable auto-move-windows@gnome-shell-extensions.gcampax.github.com
-gnome-extensions disable gnomebedtime@ionutbortis.gmail.com
-gnome-extensions disable toggle-night-light@cansozbir.github.io
-gnome-extensions disable wintile@nowsci.com
-gnome-extensions enable x11gestures@joseexposito.github.io
-gnome-extensions disable pop-shell@system76.com
-gnome-extensions enable desktop-icons@csoriano
-gnome-extensions enable ubuntu-appindicators@ubuntu.com
-gnome-extensions enable ubuntu-dock@ubuntu.com
+gnome-extensions disable InternetSpeedMonitor@Rishu;
+gnome-extensions disable activate_gnome@isjerryxiao;
+gnome-extensions disable dell-command-configure-menu@vsimkus.github.io;
+gnome-extensions disable surf@diegonz.github.io;
+gnome-extensions disable mousefollowsfocus@matthes.biz;
+gnome-extensions enable workspace-switch-wraparound@theychx.org;
+gnome-extensions enable workspaces-bar@fthx;
+gnome-extensions disable ding@rastersoft.com;
+gnome-extensions disable improved-workspace-indicator@michaelaquilina.github.io;
+gnome-extensions disable inotch@alynx.one;
+gnome-extensions disable gsconnect@andyholmes.github.io;
+gnome-extensions disable impatience@gfxmonk.net;
+gnome-extensions enable workspace_scroll@squgeim.com.np;
+gnome-extensions disable soft-brightness@fifi.org;
+gnome-extensions disable horizontal-workspaces@gnome-shell-extensions.gcampax.github.com;
+gnome-extensions disable hibernate-status@dromi;
+gnome-extensions disable user-theme@gnome-shell-extensions.gcampax.github.com;
+gnome-extensions disable drive-menu@gnome-shell-extensions.gcampax.github.com;
+gnome-extensions disable sound-output-device-chooser@kgshank.net;
+gnome-extensions disable HijriCalendar@oxygenws.com;
+gnome-extensions enable Vitals@CoreCoding.com;
+gnome-extensions disable auto-move-windows@gnome-shell-extensions.gcampax.github.com;
+gnome-extensions disable gnomebedtime@ionutbortis.gmail.com;
+gnome-extensions disable toggle-night-light@cansozbir.github.io;
+gnome-extensions enable wintile@nowsci.com;
+gnome-extensions enable x11gestures@joseexposito.github.io;
+gnome-extensions disable pop-shell@system76.com;
+gnome-extensions enable desktop-icons@csoriano;
+gnome-extensions enable ubuntu-appindicators@ubuntu.com;
+gnome-extensions enable ubuntu-dock@ubuntu.com;
 

@@ -20,7 +20,6 @@ sudo apt -y install vnstat vnstati; # network tools
 # vnstati -vs -i wlp02s20fs -o ~/summary.png
 sudo apt -y install wmctrl;
 sudo apt -y install retext; # markdown editor
-sudo apt -y install lynx; 
 sudo apt -y install texstudio; 
 sudo apt -y install lollypop; # music player
 sudo apt -y install mp3rename;
@@ -34,6 +33,8 @@ sudo apt -y install blender audacity;
 sudo apt -y install grub-customizer;
 sudo apt -y install gimp;
 sudo apt -y install mpv;
+sudo apt -y install meld;
+sudo apt -y install xclip;
 
 # sudo snap install cmake --classic;
 

@@ -35,6 +35,7 @@ sudo apt -y install gimp;
 sudo apt -y install mpv;
 sudo apt -y install meld;
 sudo apt -y install xclip;
+sudo apt -y install net-tools;
 
 # sudo snap install cmake --classic;
 

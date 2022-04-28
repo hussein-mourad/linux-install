@@ -102,6 +102,7 @@ set-light() {
     set-shell-theme $SHELL_LIGHT
     set-terminal-profile $TERMINAL_LIGHT
     gsettings set org.gnome.desktop.background picture-uri $LIGHT_WALLPAPER
+    sed -i 's/dark/light/' ~/.SpaceVim.d/init.toml
 }
 
 set-dark() {
@@ -109,6 +110,7 @@ set-dark() {
     set-shell-theme $SHELL_DARK
     set-terminal-profile $TERMINAL_DARK
     gsettings set org.gnome.desktop.background picture-uri $DARK_WALLPAPER
+    sed -i 's/light/dark/' ~/.SpaceVim.d/init.toml
 }
 
 toggle-theme() {

@@ -401,6 +401,7 @@ gir1.2-gstreamer-1.0:amd64			install
 gir1.2-gtk-2.0:amd64				install
 gir1.2-gtk-3.0:amd64				install
 gir1.2-gtkclutter-1.0:amd64			install
+gir1.2-gtksource-3.0:amd64			install
 gir1.2-gtksource-4:amd64			install
 gir1.2-gudev-1.0:amd64				install
 gir1.2-gweather-3.0:amd64			install
@@ -566,6 +567,7 @@ hicolor-icon-theme				install
 hostname					install
 hplip						install
 hplip-data					install
+htop						install
 httpie						install
 humanity-icon-theme				install
 hunspell-en-us					install
@@ -1172,7 +1174,11 @@ libffi-dev:amd64				install
 libffi7:amd64					install
 libffi7:i386					install
 libffms2-4:amd64				install
+libfftw3-bin					install
+libfftw3-dev:amd64				install
 libfftw3-double3:amd64				install
+libfftw3-long3:amd64				install
+libfftw3-quad3:amd64				install
 libfftw3-single3:amd64				install
 libfido2-1:amd64				install
 libfile-basedir-perl				install
@@ -1802,6 +1808,7 @@ libnamespace-autoclean-perl			install
 libnamespace-clean-perl				install
 libnatpmp1:amd64				install
 libnautilus-extension1a:amd64			install
+libncurses-dev:amd64				install
 libncurses6:amd64				install
 libncursesw6:amd64				install
 libndp0:amd64					install
@@ -1858,6 +1865,7 @@ libnvidia-gl-510:amd64				install
 libnvidia-gl-510:i386				install
 liboauth0:amd64					install
 libobjc4:amd64					install
+liboctave-dev					install
 liboctave7:amd64				install
 liboctomap-dev:amd64				install
 liboctomap1.9:amd64				install
@@ -2184,6 +2192,7 @@ libraw1394-tools				install
 libraw19:amd64					install
 librdf0:amd64					install
 librdmacm1:amd64				install
+libreadline-dev:amd64				install
 libreadline8:amd64				install
 libreadonly-perl				install
 libref-util-perl				install
@@ -2681,25 +2690,30 @@ linux-generic-hwe-20.04				install
 linux-headers-5.13.0-30-generic			install
 linux-headers-5.13.0-35-generic			install
 linux-headers-5.13.0-37-generic			install
+linux-headers-5.13.0-39-generic			install
 linux-headers-5.4.0-26				install
 linux-headers-5.4.0-26-generic			install
 linux-headers-generic-hwe-20.04			install
 linux-hwe-5.13-headers-5.13.0-30		install
 linux-hwe-5.13-headers-5.13.0-35		install
 linux-hwe-5.13-headers-5.13.0-37		install
+linux-hwe-5.13-headers-5.13.0-39		install
 linux-image-5.13.0-30-generic			deinstall
-linux-image-5.13.0-35-generic			install
+linux-image-5.13.0-35-generic			deinstall
 linux-image-5.13.0-37-generic			install
+linux-image-5.13.0-39-generic			install
 linux-image-5.4.0-26-generic			deinstall
 linux-image-generic-hwe-20.04			install
 linux-libc-dev:amd64				install
 linux-modules-5.13.0-30-generic			deinstall
-linux-modules-5.13.0-35-generic			install
+linux-modules-5.13.0-35-generic			deinstall
 linux-modules-5.13.0-37-generic			install
+linux-modules-5.13.0-39-generic			install
 linux-modules-5.4.0-26-generic			deinstall
 linux-modules-extra-5.13.0-30-generic		deinstall
-linux-modules-extra-5.13.0-35-generic		install
+linux-modules-extra-5.13.0-35-generic		deinstall
 linux-modules-extra-5.13.0-37-generic		install
+linux-modules-extra-5.13.0-39-generic		install
 linux-modules-extra-5.4.0-26-generic		deinstall
 linux-sound-base				install
 lm-sensors					install
@@ -2731,6 +2745,7 @@ manpages					install
 manpages-dev					install
 mawk						install
 media-player-info				install
+meld						install
 melt						install
 memtest86+					install
 mercurial					install
@@ -2740,6 +2755,7 @@ mesa-vdpau-drivers:amd64			install
 mesa-vulkan-drivers:amd64			install
 mesa-vulkan-drivers:i386			install
 meshlab						install
+microsoft-edge-stable				install
 mime-support					install
 mknfonts.tool					install
 mobile-broadband-provider-info			install
@@ -2767,6 +2783,8 @@ nautilus-sendto					install
 nautilus-share					install
 ncurses-base					install
 ncurses-bin					install
+ncurses-term					install
+net-tools					install
 netbase						install
 netcat-openbsd					install
 netpbm						install
@@ -2814,6 +2832,8 @@ openmpi-common					install
 openni-utils					install
 openprinting-ppds				install
 openssh-client					install
+openssh-server					install
+openssh-sftp-server				install
 openssl						install
 openvpn						install
 orca						install
@@ -3125,6 +3145,7 @@ qtwayland5:amd64				install
 rake						install
 ranger						install
 readline-common					install
+realvnc-vnc-viewer:i386				install
 recordmydesktop					install
 remmina						install
 remmina-common					install
@@ -3354,6 +3375,7 @@ ros-noetic-std-msgs				install
 ros-noetic-std-srvs				install
 ros-noetic-stereo-image-proc			install
 ros-noetic-stereo-msgs				install
+ros-noetic-teleop-twist-keyboard		install
 ros-noetic-tf					install
 ros-noetic-tf-conversions			install
 ros-noetic-tf2					install
@@ -3429,8 +3451,11 @@ sound-theme-freedesktop				install
 speech-dispatcher				install
 speech-dispatcher-audio-plugins:amd64		install
 speech-dispatcher-espeak-ng			install
+speedtest-cli					install
 spice-vdagent					install
+sqlitebrowser					install
 squashfs-tools					install
+ssh-import-id					install
 sshfs						install
 ssl-cert					install
 strace						install
@@ -3441,6 +3466,7 @@ switcheroo-control				install
 syslinux					install
 syslinux-common					install
 syslinux-legacy					install
+sysstat						install
 system-config-printer				install
 system-config-printer-common			install
 system-config-printer-udev			install
@@ -3544,6 +3570,7 @@ usb-modeswitch-data				install
 usb.ids						install
 usbmuxd						install
 usbutils					install
+uswsusp						install
 util-linux					install
 uuid-dev:amd64					install
 uuid-runtime					install
@@ -3596,6 +3623,7 @@ x264						install
 xauth						install
 xbitmaps					install
 xbrlapi						install
+xclip						install
 xcursor-themes					install
 xdg-dbus-proxy					install
 xdg-desktop-portal				install

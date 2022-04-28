@@ -118,6 +118,9 @@
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
+
+IPADDR=$(hostname -I | awk '{print $1}')
+
 # Example aliases
 # alias rm="rm -ri"
   alias zshc="vim ~/.zshrc"
@@ -129,11 +132,11 @@
 
   alias ls="lsd"
   alias lt="lsd --tree"
-  alias cat="bat"
+# alias cat="bat"
   alias du="dust"
   alias df="duf"
 
-  alias uni="cd /mnt/f/College/Term5/"
+  alias uni="cd /mnt/f/College/Term6/"
   alias webdev="cd /mnt/d/vscode/webdev-challenges/Fullstack/"
   alias java16="export JAVA_HOME=/home/hussein/Downloads/jdk-16.0.1/bin/;export PATH=$PATH:$JAVA_HOME"
   alias vscp="cd /mnt/d/VSCodeProjects/"
@@ -145,17 +148,18 @@
   alias mia="cd /mnt/f/mia/"
   alias backup="cd /mnt/f/fresh_linux_install" 
   alias rcv="cd /mnt/f/mia/robocon_computer-vision/" 
-  alias robocon22="cd /mnt/f/mia/Robocon_22/" 
+  alias pi22_master="export ROS_MASTER_URI=http://192.168.1.150:11311/; export ROS_IP=$IPADDR"
+  alias rbc22="cd /mnt/f/mia/Robocon_22/" 
 
 # PATH alias
  export uni='/mnt/f/College/Term6'
  export mia='/mnt/f/mia'
  export rcv="/mnt/f/mia/robocon_computer-vision/" 
- export robocon22="/mnt/f/mia/Robocon_22/" 
+ export rbc22="/mnt/f/mia/Robocon_22/" 
 
  source /opt/ros/noetic/setup.zsh
 # source ~/catkin_ws/devel/setup.zsh
-# source $robocon22/robocon_ws/devel/setup.zsh
+ source $rbc22/robocon_ws/devel/setup.zsh
 
 # bash ~/Downloads/pfetch-0.6.0/pfetch
 
@@ -181,3 +185,5 @@
 autoload bashcompinit;
 bashcompinit;
 source /usr/share/bash-completion/completions/nala;
+
+

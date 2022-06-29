@@ -36,6 +36,11 @@ sudo apt -y install mpv;
 sudo apt -y install meld;
 sudo apt -y install xclip;
 sudo apt -y install net-tools;
+sudo apt -y install id3tool; # changes audio files meta data
+sudo apt -y install soundconverter; # Audio compression
+sudo apt -y install lame; # Audio compression
+sudo apt -y install easytag;
+sudo apt -y install easytag-nautilus;
 
 # sudo snap install cmake --classic;
 

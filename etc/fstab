@@ -16,5 +16,5 @@ UUID=cc0c833e-5ab7-4885-89bb-c5da92ee08c1 /home           ext4    defaults      
 # swap was on /dev/nvme0n1p2 during installation
 UUID=f98bdf25-005e-404a-9fa0-a4cd7dfc43b2 none            swap    sw              0       0
 
-UUID="2F8559A4049346FF" /mnt/d auto nosuid,nodev,nofail,x-gvfs-show 0 0
-UUID="754708A84ED82F45" /mnt/f auto nosuid,nodev,nofail,x-gvfs-show,x-gvfs-name=HDD 0 0
+UUID="2F8559A4049346FF" /mnt/d auto nosuid,nodev,nofail,x-gvfs-show,uid=1000,gid=1000 0 0
+UUID="754708A84ED82F45" /mnt/f auto nosuid,nodev,nofail,x-gvfs-show,x-gvfs-name=HDD,uid=1000,gid=1000 0 0

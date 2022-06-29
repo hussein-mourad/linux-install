@@ -40,8 +40,11 @@ SHELL_DARK='WhiteSur-dark-solid'
 
 ICON_THEME="WhiteSur-dark"
 
-LIGHT_WALLPAPER='file:////mnt/f/Wallpapers/macOS/10-15-Day.jpg'
-DARK_WALLPAPER='file:////mnt/f/Wallpapers/macOS/10-15-Night.jpg'
+#LIGHT_WALLPAPER='file:////mnt/f/Wallpapers/macOS/10-15-Day.jpg'
+#DARK_WALLPAPER='file:////mnt/f/Wallpapers/macOS/10-15-Night.jpg'
+
+LIGHT_WALLPAPER='file:////mnt/f/Wallpapers/islamic/juan-camilo-guarin-p-BCF7cHvc778-unsplash.jpg'
+DARK_WALLPAPER='file:////mnt/f/Wallpapers/islamic/abdullah-arif-Dxi6KbpvUgA-unsplash.jpg'
 
 say() {
  echo "$@" | sed \
@@ -171,6 +174,6 @@ gnome-extensions enable toggle-night-light@cansozbir.github.io
 gnome-extensions disable wintile@nowsci.com
 gnome-extensions enable x11gestures@joseexposito.github.io
 gnome-extensions enable pop-shell@system76.com
-gnome-extensions enable desktop-icons@csoriano
+gnome-extensions disable desktop-icons@csoriano
 gnome-extensions enable ubuntu-appindicators@ubuntu.com
 gnome-extensions disable ubuntu-dock@ubuntu.com

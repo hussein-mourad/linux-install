@@ -154,12 +154,14 @@ IPADDR=$(hostname -I | awk '{print $1}')
 # PATH alias
  export uni='/mnt/f/College/Term6'
  export mia='/mnt/f/mia'
- export rcv="/mnt/f/mia/robocon_computer-vision/" 
- export rbc22="/mnt/f/mia/Robocon_22/" 
+ export rcv="/mnt/f/mia/robocon_computer-vision" 
+ export rbc22="/mnt/f/mia/Robocon_22" 
 
- source /opt/ros/noetic/setup.zsh
+
+source /opt/ros/noetic/setup.zsh
+# source /opt/ros/foxy/setup.zsh
 # source ~/catkin_ws/devel/setup.zsh
- source $rbc22/robocon_ws/devel/setup.zsh
+#source $rbc22/robocon_ws/devel/setup.zsh
 
 # bash ~/Downloads/pfetch-0.6.0/pfetch
 
@@ -186,4 +188,4 @@ autoload bashcompinit;
 bashcompinit;
 source /usr/share/bash-completion/completions/nala;
 
-
+#export EDITOR="code"

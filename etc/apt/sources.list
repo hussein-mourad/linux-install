@@ -55,5 +55,5 @@ deb http://archive.ubuntu.com/ubuntu focal-security multiverse
 # entries were disabled at the end of the installation process.
 # For information about how to configure apt package sources,
 # see the sources.list(5) manual.
-deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/ /
+deb [trusted=yes] https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/ /
 # deb-src https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/ /

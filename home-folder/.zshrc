@@ -1,8 +1,8 @@
- export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
- export CUDA=/usr/local/cuda/bin/
- export CUDA11=/usr/local/cuda-11.5/bin/
- export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-11.5/lib64:/usr/local/opencv4
- export ZED=/usr/local/zed/tools/
+# export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+# export CUDA=/usr/local/cuda/bin/
+# export CUDA11=/usr/local/cuda-11.5/bin/
+# export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-11.5/lib64:/usr/local/opencv4
+# export ZED=/usr/local/zed/tools/
  export PATH=$HOME/.bin:$HOME/bin:/usr/local/bin:$HOME/Downloads/platform-tools/:$HOME/.local/share/apache-maven-3.8.2/bin/:$JAVA_HOME/bin:$CUDA:$CUDA11:$ZED:$PATH
  source ~/.profile
 # export NVM_DIR="$HOME/.nvm"
@@ -149,43 +149,26 @@ IPADDR=$(hostname -I | awk '{print $1}')
   alias backup="cd /mnt/f/fresh_linux_install" 
   alias rcv="cd /mnt/f/mia/robocon_computer-vision/" 
   alias pi22_master="export ROS_MASTER_URI=http://192.168.1.150:11311/; export ROS_IP=$IPADDR"
-  alias rbc22="cd /mnt/f/mia/Robocon_22/" 
 
 # PATH alias
- export uni='/mnt/f/College/Term6'
- export mia='/mnt/f/mia'
- export rcv="/mnt/f/mia/robocon_computer-vision" 
- export rbc22="/mnt/f/mia/Robocon_22" 
+ export uni='/mnt/d/College/Term6'
+ export mia='/mnt/d/mia'
+export rcv="/mnt/d/mia/robocon_computer-vision" 
+export rbc22="/mnt/d/mia/Robocon_22" 
 
 
-source /opt/ros/noetic/setup.zsh
+  source /opt/ros/noetic/setup.zsh
 # source /opt/ros/foxy/setup.zsh
-# source ~/catkin_ws/devel/setup.zsh
+ source ~/ros_workspaces/catkin_ws/devel/setup.zsh
 #source $rbc22/robocon_ws/devel/setup.zsh
 
 # bash ~/Downloads/pfetch-0.6.0/pfetch
 
- figlet -t hussein
+# figlet -t hussein
 # colorscript random
 
- # >>> conda initialize >>>
- # !! Contents within this block are managed by 'conda init' !!
- __conda_setup="$('/home/hussein/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
- if [ $? -eq 0 ]; then
-     eval "$__conda_setup"
- else
-     if [ -f "/home/hussein/anaconda3/etc/profile.d/conda.sh" ]; then
-          . "/home/hussein/anaconda3/etc/profile.d/conda.sh"
-      else
-          export PATH="/home/hussein/anaconda3/bin:$PATH"
-      fi
-  fi
-  unset __conda_setup
-  # <<< conda initialize <<<
-  
-  
-autoload bashcompinit;
-bashcompinit;
-source /usr/share/bash-completion/completions/nala;
+#autoload bashcompinit;
+#bashcompinit;
+#source /usr/share/bash-completion/completions/nala;
 
 #export EDITOR="code"

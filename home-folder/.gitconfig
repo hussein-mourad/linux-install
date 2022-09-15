@@ -21,8 +21,5 @@
 	required = true
 [pull]
 	rebase = false
-[safe]
-	directory = /mnt/f/robocon_computer-vision
-	directory = /mnt/f/fresh_linux_install
 [color]
 	ui = auto

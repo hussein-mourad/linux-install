@@ -62,7 +62,6 @@ binutils					install
 binutils-avr					install
 binutils-common:amd64				install
 binutils-x86-64-linux-gnu			install
-blender-data					install
 blt						install
 bluez						install
 bluez-cups					install
@@ -91,6 +90,8 @@ cheese-common					install
 chemical-mime-data				install
 chrome-gnome-shell				install
 chromium-codecs-ffmpeg-extra			install
+clang						install
+clang-10					install
 cmake						install
 cmake-data					install
 cmake-qt-gui					install
@@ -182,6 +183,8 @@ dvgrab						install
 dvisvgm						install
 dwz						install
 e2fsprogs					install
+easytag						install
+easytag-nautilus				install
 ed						install
 efibootmgr					install
 eject						install
@@ -355,7 +358,9 @@ gcc-8-base:amd64				install
 gcc-9						install
 gcc-9-base:amd64				install
 gcc-avr						install
-gconf2-common					deinstall
+gconf-service					install
+gconf-service-backend				install
+gconf2-common					install
 gcr						install
 gdal-data					install
 gdb						install
@@ -455,6 +460,7 @@ gnome-bluetooth					install
 gnome-calculator				install
 gnome-calendar					install
 gnome-characters				install
+gnome-clocks					install
 gnome-control-center				install
 gnome-control-center-data			install
 gnome-control-center-faces			install
@@ -462,6 +468,7 @@ gnome-desktop3-data				install
 gnome-disk-utility				install
 gnome-font-viewer				install
 gnome-getting-started-docs			install
+gnome-icon-theme				install
 gnome-initial-setup				install
 gnome-keyring					install
 gnome-keyring-pkcs11:amd64			install
@@ -597,6 +604,8 @@ ibus-gtk3:amd64					install
 ibus-table					install
 ibverbs-providers:amd64				install
 icu-devtools					install
+id3tool						install
+id3v2						install
 ignition-tools:amd64				install
 iio-sensor-proxy				install
 im-config					install
@@ -656,6 +665,7 @@ krb5-locales					install
 krb5-multidev:amd64				install
 kwayland-data					install
 kwayland-integration:amd64			install
+lame						install
 language-pack-ar				install
 language-pack-ar-base				install
 language-pack-en				install
@@ -668,6 +678,8 @@ language-selector-common			install
 language-selector-gnome				install
 laptop-detect					install
 less						install
+lib32gcc-s1					install
+lib32stdc++6					install
 lib3ds-1-3:amd64				install
 liba52-0.7.4:amd64				install
 libaa1:amd64					install
@@ -732,6 +744,7 @@ libatasmart4:amd64				install
 libatinject-jsr330-api-java			install
 libatk-adaptor:amd64				install
 libatk-bridge2.0-0:amd64			install
+libatk-bridge2.0-dev:amd64			install
 libatk-wrapper-java				install
 libatk-wrapper-java-jni:amd64			install
 libatk1.0-0:amd64				install
@@ -745,6 +758,7 @@ libatomic1:amd64				install
 libatomic1:i386					install
 libatopology2:amd64				install
 libatspi2.0-0:amd64				install
+libatspi2.0-dev:amd64				install
 libattr1:amd64					install
 libaudit-common					install
 libaudit1:amd64					install
@@ -787,7 +801,6 @@ libblockdev-part2:amd64				install
 libblockdev-swap2:amd64				install
 libblockdev-utils2:amd64			install
 libblockdev2:amd64				install
-libblosc1					install
 libbluetooth3:amd64				install
 libbluray2:amd64				install
 libboost-all-dev				install
@@ -895,6 +908,9 @@ libbullet-dev:amd64				install
 libbullet2.88:amd64				install
 libbz2-1.0:amd64				install
 libbz2-dev:amd64				install
+libc++1:amd64					install
+libc++1-10:amd64				install
+libc++abi1-10:amd64				install
 libc-ares2:amd64				install
 libc-bin					install
 libc-dev-bin					install
@@ -902,6 +918,7 @@ libc6:amd64					install
 libc6:i386					install
 libc6-dbg:amd64					install
 libc6-dev:amd64					install
+libc6-i386					install
 libcaca-dev					install
 libcaca0:amd64					install
 libcaf-openmpi-3:amd64				install
@@ -945,6 +962,8 @@ libcheese-gtk25:amd64				install
 libcheese8:amd64				install
 libcholmod3:amd64				install
 libchromaprint1:amd64				install
+libclang-common-10-dev				install
+libclang-cpp10					install
 libclang1-10					install
 libclass-c3-perl				install
 libclass-c3-xs-perl				install
@@ -1036,7 +1055,6 @@ libdbusmenu-qt5-2:amd64				install
 libdc1394-22:amd64				install
 libdc1394-22-dev:amd64				install
 libdca0:amd64					install
-libdcmtk14					install
 libdconf1:amd64					install
 libde265-0:amd64				install
 libdebconfclient0:amd64				install
@@ -1136,6 +1154,7 @@ libemotion1:amd64				install
 libenchant-2-2:amd64				install
 libencode-locale-perl				install
 libeot0:amd64					install
+libepoxy-dev:amd64				install
 libepoxy0:amd64					install
 libepsilon-dev:amd64				install
 libepsilon1:amd64				install
@@ -1262,6 +1281,7 @@ libgcc-9-dev:amd64				install
 libgcc-s1:amd64					install
 libgcc-s1:i386					install
 libgck-1-0:amd64				install
+libgconf-2-4:amd64				install
 libgcr-base-3-1:amd64				install
 libgcr-ui-3-1:amd64				install
 libgcrypt20:amd64				install
@@ -1408,6 +1428,7 @@ libgtest-dev:amd64				install
 libgtk-3-0:amd64				install
 libgtk-3-bin					install
 libgtk-3-common					install
+libgtk-3-dev:amd64				install
 libgtk2.0-0:amd64				install
 libgtk2.0-bin					install
 libgtk2.0-common				install
@@ -1489,6 +1510,7 @@ libicns1:amd64					install
 libicu-dev:amd64				install
 libicu4j-java					install
 libicu66:amd64					install
+libid3-3.8.3v5:amd64				install
 libid3tag0:amd64				install
 libidn11:amd64					install
 libidn2-0:amd64					install
@@ -1555,7 +1577,6 @@ libjbig0:amd64					install
 libjbig2dec0:amd64				install
 libjcat1:amd64					install
 libjdom1-java					install
-libjemalloc2:amd64				install
 libjetbrains-annotations-java			install
 libjexcelapi-java				install
 libjopendocument-java				install
@@ -1892,6 +1913,7 @@ libnvidia-fbc1-510:i386				install
 libnvidia-gl-510:amd64				install
 libnvidia-gl-510:i386				install
 liboauth0:amd64					install
+libobjc-9-dev:amd64				install
 libobjc4:amd64					install
 liboctave-dev					install
 liboctave7:amd64				install
@@ -1907,13 +1929,14 @@ libogg-dev:amd64				install
 libogg0:amd64					install
 libogre-1.9-dev					install
 libogre-1.9.0v5:amd64				install
+libomp-10-dev					install
+libomp5-10:amd64				install
 libopenal-data					install
 libopenal1:amd64				install
 libopenblas-dev:amd64				install
 libopenblas-pthread-dev:amd64			install
 libopenblas0:amd64				install
 libopenblas0-pthread:amd64			install
-libopencolorio1v5				install
 libopencore-amrnb-dev:amd64			install
 libopencore-amrnb0:amd64			install
 libopencore-amrwb-dev:amd64			install
@@ -1966,7 +1989,6 @@ libopenexr24:amd64				install
 libopengl-dev:amd64				install
 libopengl0:amd64				install
 libopengl0:i386					install
-libopenimageio2.1:amd64				install
 libopenjp2-7:amd64				install
 libopenjp2-7-dev				install
 libopenmpi-dev:amd64				install
@@ -1978,16 +2000,14 @@ libopenni-sensor-pointclouds0			install
 libopenni0					install
 libopenni2-0					install
 libopenni2-dev					install
-libopenvdb6.2					install
 libopus0:amd64					install
+libopusfile0					install
 liborc-0.4-0:amd64				install
 liborc-0.4-dev:amd64				install
 liborc-0.4-dev-bin				install
 liborcus-0.15-0:amd64				install
 liborocos-kdl-dev:amd64				install
 liborocos-kdl1.4				install
-libosdcpu3.4.0:amd64				install
-libosdgpu3.4.0:amd64				install
 libostree-1-1:amd64				install
 libp11-kit0:amd64				install
 libpackage-stash-perl				install
@@ -2058,6 +2078,7 @@ libpdfbox-java					install
 libpeas-1.0-0:amd64				install
 libpeas-common					install
 libperl5.30:amd64				install
+libpfm4:amd64					install
 libpgm-5.2-0:amd64				install
 libpgm-dev:amd64				install
 libphonenumber7:amd64				install
@@ -2365,7 +2386,6 @@ libspeexdsp1:amd64				install
 libspnav0					install
 libsqlite3-0:amd64				install
 libsqlite3-dev:amd64				install
-libsquish0:amd64				install
 libsratom-0-0:amd64				install
 libsrt1:amd64					install
 libss2:amd64					install
@@ -2702,6 +2722,7 @@ libxstring-perl					install
 libxt-dev:amd64					install
 libxt6:amd64					install
 libxtables12:amd64				install
+libxtst-dev:amd64				install
 libxtst6:amd64					install
 libxv-dev:amd64					install
 libxv1:amd64					install
@@ -2720,6 +2741,8 @@ libyaml-cpp0.6:amd64				install
 libyaml-dev:amd64				install
 libyaml-tiny-perl				install
 libyelp0:amd64					install
+libz3-4:amd64					install
+libz3-dev:amd64					install
 libzip-dev:amd64				install
 libzip5:amd64					install
 libzmq3-dev:amd64				install
@@ -2735,15 +2758,15 @@ linux-firmware					install
 linux-generic-hwe-20.04				install
 linux-headers-5.13.0-30-generic			install
 linux-headers-5.13.0-35-generic			install
-linux-headers-5.13.0-48-generic			install
-linux-headers-5.13.0-51-generic			install
+linux-headers-5.13.0-52-generic			install
+linux-headers-5.15.0-41-generic			install
 linux-headers-5.4.0-26				install
 linux-headers-5.4.0-26-generic			install
 linux-headers-generic-hwe-20.04			install
 linux-hwe-5.13-headers-5.13.0-30		install
 linux-hwe-5.13-headers-5.13.0-35		install
-linux-hwe-5.13-headers-5.13.0-48		install
-linux-hwe-5.13-headers-5.13.0-51		install
+linux-hwe-5.13-headers-5.13.0-52		install
+linux-hwe-5.15-headers-5.15.0-41		install
 linux-image-5.13.0-30-generic			deinstall
 linux-image-5.13.0-35-generic			deinstall
 linux-image-5.13.0-37-generic			deinstall
@@ -2751,8 +2774,10 @@ linux-image-5.13.0-39-generic			deinstall
 linux-image-5.13.0-40-generic			deinstall
 linux-image-5.13.0-41-generic			deinstall
 linux-image-5.13.0-44-generic			deinstall
-linux-image-5.13.0-48-generic			install
-linux-image-5.13.0-51-generic			install
+linux-image-5.13.0-48-generic			deinstall
+linux-image-5.13.0-51-generic			deinstall
+linux-image-5.13.0-52-generic			install
+linux-image-5.15.0-41-generic			install
 linux-image-5.4.0-26-generic			deinstall
 linux-image-generic-hwe-20.04			install
 linux-libc-dev:amd64				install
@@ -2763,8 +2788,10 @@ linux-modules-5.13.0-39-generic			deinstall
 linux-modules-5.13.0-40-generic			deinstall
 linux-modules-5.13.0-41-generic			deinstall
 linux-modules-5.13.0-44-generic			deinstall
-linux-modules-5.13.0-48-generic			install
-linux-modules-5.13.0-51-generic			install
+linux-modules-5.13.0-48-generic			deinstall
+linux-modules-5.13.0-51-generic			deinstall
+linux-modules-5.13.0-52-generic			install
+linux-modules-5.15.0-41-generic			install
 linux-modules-5.4.0-26-generic			deinstall
 linux-modules-extra-5.13.0-30-generic		deinstall
 linux-modules-extra-5.13.0-35-generic		deinstall
@@ -2773,10 +2800,16 @@ linux-modules-extra-5.13.0-39-generic		deinstall
 linux-modules-extra-5.13.0-40-generic		deinstall
 linux-modules-extra-5.13.0-41-generic		deinstall
 linux-modules-extra-5.13.0-44-generic		deinstall
-linux-modules-extra-5.13.0-48-generic		install
-linux-modules-extra-5.13.0-51-generic		install
+linux-modules-extra-5.13.0-48-generic		deinstall
+linux-modules-extra-5.13.0-51-generic		deinstall
+linux-modules-extra-5.13.0-52-generic		install
+linux-modules-extra-5.15.0-41-generic		install
 linux-modules-extra-5.4.0-26-generic		deinstall
 linux-sound-base				install
+llvm-10						install
+llvm-10-dev					install
+llvm-10-runtime					install
+llvm-10-tools					install
 lm-sensors					install
 lmodern						install
 locales						install
@@ -2862,6 +2895,7 @@ network-manager-pptp-gnome			install
 networkd-dispatcher				install
 nfs-common					install
 nfs-kernel-server				install
+ninja-build					install
 nmap						install
 nmap-common					install
 node-typescript					install
@@ -3895,6 +3929,7 @@ software-properties-gtk				install
 sonnet-plugins					install
 sound-icons					install
 sound-theme-freedesktop				install
+soundconverter					install
 speech-dispatcher				install
 speech-dispatcher-audio-plugins:amd64		install
 speech-dispatcher-espeak-ng			install
@@ -4048,6 +4083,7 @@ vtk7						install
 w3m						install
 w3m-img						install
 wamerican					install
+wayland-protocols				install
 wbritish					install
 wget						install
 whiptail					install
@@ -4067,6 +4103,7 @@ x11proto-core-dev				install
 x11proto-dev					install
 x11proto-input-dev				install
 x11proto-randr-dev				install
+x11proto-record-dev				install
 x11proto-scrnsaver-dev				install
 x11proto-xext-dev				install
 x11proto-xf86vidmode-dev			install

@@ -18,3 +18,4 @@ UUID=f98bdf25-005e-404a-9fa0-a4cd7dfc43b2 none            swap    sw            
 
 UUID="2F8559A4049346FF" /mnt/d auto nosuid,nodev,nofail,x-gvfs-show,uid=1000,gid=1000 0 0
 UUID="754708A84ED82F45" /mnt/f auto nosuid,nodev,nofail,x-gvfs-show,x-gvfs-name=HDD,uid=1000,gid=1000 0 0
+#UUID="754708A84ED82F45" /mnt/f ntfs-3g auto,users,permissions 0 0

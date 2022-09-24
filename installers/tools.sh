@@ -37,6 +37,7 @@ sudo apt -y install meld;
 sudo apt -y install xclip;
 sudo apt -y install net-tools;
 sudo apt -y install id3tool; # changes audio files meta data
+sudo apt -y install id3v2; # changes audio files meta data
 sudo apt -y install soundconverter; # Audio compression
 sudo apt -y install lame; # Audio compression
 sudo apt -y install easytag;

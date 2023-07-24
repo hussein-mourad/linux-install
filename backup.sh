@@ -1,6 +1,6 @@
 #! /bin/bash
 
-DEST=/mnt/f/fresh_linux_install
+DEST=/mnt/d/fresh_linux_install
 
 mkdir -p $DEST/.local/share/gnome-shell/
 

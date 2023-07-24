@@ -5,17 +5,12 @@
 # that works even if disks are added and removed. See fstab(5).
 #
 # <file system> <mount point>   <type>  <options>       <dump>  <pass>
-# / was on /dev/nvme0n1p3 during installation
-UUID=8d863189-c9d3-490a-8610-2d6aa9178cb6 /               ext4    errors=remount-ro 0       1
+# / was on /dev/nvme0n1p5 during installation
+UUID=4940a2c9-3143-4178-91e5-6bf59a1a7772 /               ext4    errors=remount-ro 0       1
 # /boot/efi was on /dev/nvme0n1p1 during installation
-UUID=CC37-BBFB  /boot/efi       vfat    umask=0077      0       1
-
-# /home was on /dev/nvme0n1p4 during installation
-UUID=cc0c833e-5ab7-4885-89bb-c5da92ee08c1 /home           ext4    defaults        0       2
-
-# swap was on /dev/nvme0n1p2 during installation
-UUID=f98bdf25-005e-404a-9fa0-a4cd7dfc43b2 none            swap    sw              0       0
-
-UUID="2F8559A4049346FF" /mnt/d auto nosuid,nodev,nofail,x-gvfs-show,uid=1000,gid=1000 0 0
-UUID="754708A84ED82F45" /mnt/f auto nosuid,nodev,nofail,x-gvfs-show,x-gvfs-name=HDD,uid=1000,gid=1000 0 0
-#UUID="754708A84ED82F45" /mnt/f ntfs-3g auto,users,permissions 0 0
+UUID=7955-EC30  /boot/efi       vfat    umask=0077      0       1
+# /home was on /dev/nvme0n1p6 during installation
+UUID=4f57031f-84e4-4d60-951b-2efac59ca892 /home           ext4    defaults        0       2
+# swap was on /dev/nvme0n1p7 during installation
+UUID=331b71a8-8eba-4b6d-9500-a5acc4a6c545 none            swap    sw              0       0
+UUID=754708A84ED82F45 /mnt/d auto uid=1001,nodev,nofail,x-gvfs-show 0 0

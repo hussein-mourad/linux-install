@@ -115,25 +115,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-source /opt/ros/noetic/setup.bash
-source ~/catkin_ws/devel/setup.bash
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/hussein/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/hussein/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/hussein/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/hussein/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
-
-
-source /opt/ros/noetic/setup.bash
-source ~/catkin_ws/devel/setup.bash
+export PICO_SDK_PATH=/home/husseinkde/pico/pico-sdk
+export PICO_EXAMPLES_PATH=/home/husseinkde/pico/pico-examples
+export PICO_EXTRAS_PATH=/home/husseinkde/pico/pico-extras
+export PICO_PLAYGROUND_PATH=/home/husseinkde/pico/pico-playground

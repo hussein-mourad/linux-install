@@ -3,11 +3,17 @@
 # export CUDA11=/usr/local/cuda-11.5/bin/
 # export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-11.5/lib64:/usr/local/opencv4
 # export ZED=/usr/local/zed/tools/
+#
  export PATH=$HOME/.local/bin:$HOME/.bin:$HOME/bin:/usr/local/bin:$HOME/Downloads/platform-tools/:$HOME/.local/share/apache-maven-3.8.2/bin/:$JAVA_HOME/bin:$CUDA:$CUDA11:$ZED:$PATH
  source ~/.profile
+
+ export PICO_SDK_PATH=$HOME/pico/pico-sdk/
+
+
 # export NVM_DIR="$HOME/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 # [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+#
  export ZSH="$HOME/.oh-my-zsh"
 
  source /usr/share/antigen/antigen.zsh
@@ -23,8 +29,8 @@
  antigen bundle jeffreytse/zsh-vi-mode;
 
 # antigen theme agnoster 
-  antigen theme strug 
-# antigen theme robbyrussell 
+ #  antigen theme strug 
+ antigen theme robbyrussell 
 
  antigen apply;
  
@@ -128,15 +134,15 @@ IPADDR=$(hostname -I | awk '{print $1}')
   alias i3c="vim ~/.config/i3/config"
   alias i3blocksc="vim ~/.config/i3/i3blocks.conf"
   alias vimc="vim ~/.vimrc"
-  alias files="io.elementary.files"
+# alias files="io.elementary.files"
 
   alias ls="lsd"
   alias lt="lsd --tree"
 # alias cat="bat"
-  alias du="dust"
-  alias df="duf"
+# alias du="dust"
+# alias df="duf"
 
-  alias uni="cd /mnt/f/College/Term6/"
+  alias uni="cd /mnt/d/College/Term7/"
   alias webdev="cd /mnt/d/vscode/webdev-challenges/Fullstack/"
   alias java16="export JAVA_HOME=/home/hussein/Downloads/jdk-16.0.1/bin/;export PATH=$PATH:$JAVA_HOME"
   alias vscp="cd /mnt/d/VSCodeProjects/"
@@ -144,31 +150,55 @@ IPADDR=$(hostname -I | awk '{print $1}')
   alias clp="cd /mnt/d/ClionProjects"
   alias wsp="cd /mnt/d/WebstormProjects"
   alias ideap="cd /mnt/d/IdeaProjects" 
-  alias ard="cd /mnt/f/Arduino/"
-  alias mia="cd /mnt/f/mia/"
-  alias backup="cd /mnt/f/fresh_linux_install" 
-  alias rcv="cd /mnt/f/mia/robocon_computer-vision/" 
+  alias ard="cd /mnt/d/Arduino/"
+  alias mia="cd /mnt/d/mia/"
+  alias backup="cd /mnt/d/fresh_linux_install" 
+  alias rcv="cd /mnt/d/mia/robocon_computer-vision/" 
   alias pi22_master="export ROS_MASTER_URI=http://192.168.1.150:11311/; export ROS_IP=$IPADDR"
 
+  alias sros='source /opt/ros/noetic/setup.zsh'
+  alias sros2='source /opt/ros/foxy/setup.zsh'
+  alias update="sudo apt update && sudo apt upgrade -y && sudo snap refresh"
+
 # PATH alias
- export uni='/mnt/d/College/Term6'
- export mia='/mnt/d/mia'
-export rcv="/mnt/d/mia/robocon_computer-vision" 
-export rbc22="/mnt/d/mia/Robocon_22" 
-
-
-  source /opt/ros/noetic/setup.zsh
-# source /opt/ros/foxy/setup.zsh
- source ~/ros_workspaces/catkin_ws/devel/setup.zsh
-#source $rbc22/robocon_ws/devel/setup.zsh
+ export uni='/mnt/d/College/Term7'
+ export mia='/mnt/d/mia23'
+ export rcv="/mnt/d/mia/mia22/robocon_computer-vision" 
+ export rbc22="/mnt/d/mia/mia22/Robocon_22" 
 
 # bash ~/Downloads/pfetch-0.6.0/pfetch
 
+# Fun
 # figlet -t hussein
 # colorscript random
 
-#autoload bashcompinit;
-#bashcompinit;
-#source /usr/share/bash-completion/completions/nala;
+# Nala
+# autoload bashcompinit;
+# bashcompinit;
+# source /usr/share/bash-completion/completions/nala;
+
+# Ros
+# source /opt/ros/noetic/setup.zsh
+# source $rbc22/robocon_ws/devel/setup.zsh
+# source ~/ros/catkin_ws/devel/setup.zsh
+# source ~/ros2_ws/install/setup.zsh
+# source ~/ros_workspaces/catkin_ws/devel/setup.zsh
+
+
+
+# Ros2
+# source /opt/ros/foxy/setup.zsh
+# source /usr/share/colcon_cd/function/colcon_cd.sh
+# export _colcon_cd_root=/opt/ros/foxy/
+# source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.zsh
+# export GPG_TTY=$(tty)
+
+# Emscripten
+# source ~/emsdk/emsdk_env.sh
 
 #export EDITOR="code"
+
+# Remove Background colors
+eval "$(dircolors -p | \
+    sed 's/ 4[0-9];/ 01;/; s/;4[0-9];/;01;/g; s/;4[0-9] /;01 /' | \
+    dircolors /dev/stdin)"

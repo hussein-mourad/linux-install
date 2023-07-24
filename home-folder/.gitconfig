@@ -1,7 +1,7 @@
 [user]
 	email = 38833034+Hussein-Mourad@users.noreply.github.com
 	name = Hussein-Mourad
-	signingkey = C92BAB7BDBDE47C5
+	signingkey = 64624664ACD64D9C
 [credential "https://github.com"]
 	helper = !/usr/bin/gh auth git-credential
 [core]

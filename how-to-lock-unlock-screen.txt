@@ -1,0 +1,2 @@
+loginctl lock-session
+loginctl unlock-session

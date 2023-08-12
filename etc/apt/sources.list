@@ -1,4 +1,4 @@
-# deb cdrom:[Ubuntu 20.04.4 LTS _Focal Fossa_ - Release amd64 (20220223)]/ focal main restricted
+# deb cdrom:[Zorin-OS 16.3 Core 64bit]/ focal main restricted
 
 # See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
 # newer versions of the distribution.
@@ -40,7 +40,7 @@ deb http://eg.archive.ubuntu.com/ubuntu/ focal-backports main restricted univers
 ## 'partner' repository.
 ## This software is not part of Ubuntu, but is offered by Canonical and the
 ## respective vendors as a service to Ubuntu users.
-deb http://archive.canonical.com/ubuntu focal partner
+# deb http://archive.canonical.com/ubuntu focal partner
 # deb-src http://archive.canonical.com/ubuntu focal partner
 
 deb http://security.ubuntu.com/ubuntu focal-security main restricted

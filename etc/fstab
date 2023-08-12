@@ -6,11 +6,10 @@
 #
 # <file system> <mount point>   <type>  <options>       <dump>  <pass>
 # / was on /dev/nvme0n1p5 during installation
-UUID=4940a2c9-3143-4178-91e5-6bf59a1a7772 /               ext4    errors=remount-ro 0       1
+UUID=c8d1349a-3285-4e5c-89f9-e8b0beea7f4f /               ext4    errors=remount-ro 0       1
 # /boot/efi was on /dev/nvme0n1p1 during installation
+/swapfile                                 none            swap    sw              0       0
 UUID=7955-EC30  /boot/efi       vfat    umask=0077      0       1
-# /home was on /dev/nvme0n1p6 during installation
-UUID=4f57031f-84e4-4d60-951b-2efac59ca892 /home           ext4    defaults        0       2
-# swap was on /dev/nvme0n1p7 during installation
-UUID=331b71a8-8eba-4b6d-9500-a5acc4a6c545 none            swap    sw              0       0
-UUID=754708A84ED82F45 /mnt/d auto uid=1001,nodev,nofail,x-gvfs-show 0 0
+/dev/sda1 /mnt/d auto uid=1000,nodev,nofail,x-gvfs-show 0 0
+/dev/nvme0n1p4 /mnt/e auto uid=1000,nodev,nofail,x-gvfs-show 0 0
+UUID=6D2592BC682F634C /mnt/work auto nosuid,nodev,nofail,x-gvfs-show 0 0

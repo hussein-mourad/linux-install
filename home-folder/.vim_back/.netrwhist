@@ -1,3 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
-let g:netrw_dirhist_1='/mnt/d/College/Term7/Operating Systems/labs/solutions/lab2/backup'
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/mnt/d/Linux/Documents/fresh_linux_install'
+let g:netrw_dirhist_8='/mnt/d/Linux/Documents/fresh_linux_install/.config/autostart'
+let g:netrw_dirhist_7='/mnt/d/Linux/Documents/fresh_linux_install/.config'
+let g:netrw_dirhist_6='/mnt/d/Linux/Documents/fresh_linux_install'
+let g:netrw_dirhist_5='/mnt/d/Linux/Documents/fresh_linux_install/.config/autostart'
+let g:netrw_dirhist_4='/mnt/d/Linux/Documents/fresh_linux_install/.config'
+let g:netrw_dirhist_3='/mnt/d/Linux/Documents/fresh_linux_install'
+let g:netrw_dirhist_2='/mnt/d/Linux/Documents/fresh_linux_install/home-folder'
+let g:netrw_dirhist_1='/mnt/d/Linux/Documents/fresh_linux_install'

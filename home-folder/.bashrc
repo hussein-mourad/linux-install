@@ -115,7 +115,3 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-export PICO_SDK_PATH=/home/husseinkde/pico/pico-sdk
-export PICO_EXAMPLES_PATH=/home/husseinkde/pico/pico-examples
-export PICO_EXTRAS_PATH=/home/husseinkde/pico/pico-extras
-export PICO_PLAYGROUND_PATH=/home/husseinkde/pico/pico-playground

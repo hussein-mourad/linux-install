@@ -1,25 +1,14 @@
 [user]
 	email = 38833034+Hussein-Mourad@users.noreply.github.com
 	name = Hussein-Mourad
-	signingkey = 64624664ACD64D9C
 [credential "https://github.com"]
+	helper = 
 	helper = !/usr/bin/gh auth git-credential
-[core]
-	editor = vim
-[commit]
-	gpgSign = true
-[tag]
-	gpgSign = true
-[init]
-	defaultBranch = main
-[gpg]
-	program = gpg
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
-[pull]
-	rebase = false
-[color]
-	ui = auto
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[safe]
+	directory = /mnt/e/php_projects/blog-website-laravel
+	directory = /mnt/e/php_projects/blog-website
+	directory = /mnt/work/python_projects/python_test_projects
+	directory = /mnt/work/python_projects/CDS

@@ -1,20 +1,15 @@
-# export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
-# export CUDA=/usr/local/cuda/bin/
-# export CUDA11=/usr/local/cuda-11.5/bin/
-# export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-11.5/lib64:/usr/local/opencv4
-# export ZED=/usr/local/zed/tools/
-#
- export PATH=$HOME/.local/bin:$HOME/.bin:$HOME/bin:/usr/local/bin:$HOME/Downloads/platform-tools/:$HOME/.local/share/apache-maven-3.8.2/bin/:$JAVA_HOME/bin:$CUDA:$CUDA11:$ZED:$PATH
- source ~/.profile
+source ~/.profile
+export PATH=$HOME/.local/bin:$HOME/.bin:$HOME/bin:/usr/local/bin:/snap/bin/:$PATH
 
- export PICO_SDK_PATH=$HOME/pico/pico-sdk/
+ export NVM_DIR="$HOME/.nvm"
+ [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+ [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+ # Usage examples:
+ # nvm list-remote
 
-
-# export NVM_DIR="$HOME/.nvm"
-# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-#
  export ZSH="$HOME/.oh-my-zsh"
+ # Microsoft Edge cv_debug.log file fix
+ export TMPDIR="/tmp;microsoft-edge"
 
  source /usr/share/antigen/antigen.zsh
 
@@ -136,13 +131,13 @@ IPADDR=$(hostname -I | awk '{print $1}')
   alias vimc="vim ~/.vimrc"
 # alias files="io.elementary.files"
 
-  alias ls="lsd"
+#  alias ls="lsd"
   alias lt="lsd --tree"
-# alias cat="bat"
+ alias cat="bat"
 # alias du="dust"
 # alias df="duf"
 
-  alias uni="cd /mnt/d/College/Term7/"
+  alias uni="cd /mnt/d/College/Summer23/"
   alias webdev="cd /mnt/d/vscode/webdev-challenges/Fullstack/"
   alias java16="export JAVA_HOME=/home/hussein/Downloads/jdk-16.0.1/bin/;export PATH=$PATH:$JAVA_HOME"
   alias vscp="cd /mnt/d/VSCodeProjects/"

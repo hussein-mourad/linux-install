@@ -147,7 +147,7 @@ IPADDR=$(hostname -I | awk '{print $1}')
   alias ideap="cd /mnt/d/IdeaProjects" 
   alias ard="cd /mnt/d/Arduino/"
   alias mia="cd /mnt/d/mia/"
-  alias backup="cd /mnt/d/fresh_linux_install" 
+  alias backup="cd /mnt/d/Linux/Downloads/fresh_linux_install" 
   alias rcv="cd /mnt/d/mia/robocon_computer-vision/" 
   alias pi22_master="export ROS_MASTER_URI=http://192.168.1.150:11311/; export ROS_IP=$IPADDR"
 

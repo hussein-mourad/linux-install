@@ -12,3 +12,10 @@
 	directory = /mnt/e/php_projects/blog-website
 	directory = /mnt/work/python_projects/python_test_projects
 	directory = /mnt/work/python_projects/CDS
+	directory = /mnt/work/python_projects/CDS-0.8.5
+	directory = /mnt/work/python_projects/yaman
+	directory = /mnt/work/qemu-vms/macOS-Simple-KVM/tools/dmg2img-src
+	directory = /mnt/work/qemu-vms/macOS-Simple-KVM/tools/dmg2img-src
+	directory = /mnt/work/qemu-vms/macOS-Simple-KVM/tools/dmg2img-src
+[core]
+	autocrlf = input

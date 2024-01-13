@@ -1,33 +1,42 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 source ~/.profile
 export PATH=$HOME/.local/bin:$HOME/.bin:$HOME/bin:/usr/local/bin:/snap/bin/:$PATH
 
- export NVM_DIR="$HOME/.nvm"
+export NVM_DIR="$HOME/.nvm"
  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
  [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
  # Usage examples:
  # nvm list-remote
 
- export ZSH="$HOME/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
  # Microsoft Edge cv_debug.log file fix
- export TMPDIR="/tmp;microsoft-edge"
+ #export TMPDIR="/tmp;microsoft-edge"
+export TMPDIR="/tmp"
 
- source /usr/share/antigen/antigen.zsh
+source /usr/share/antigen/antigen.zsh
 
- antigen use oh-my-zsh
+antigen use oh-my-zsh
 
- antigen bundle git;
- antigen bundle command-not-found;
+antigen bundle git;
+antigen bundle command-not-found;
 
- antigen bundle zsh-users/zsh-autosuggestions;
- antigen bundle zsh-users/zsh-syntax-highlighting;
- antigen bundle zsh-users/zsh-completions;
- antigen bundle jeffreytse/zsh-vi-mode;
+antigen bundle zsh-users/zsh-autosuggestions;
+antigen bundle zsh-users/zsh-syntax-highlighting;
+antigen bundle zsh-users/zsh-completions;
+antigen bundle jeffreytse/zsh-vi-mode;
 
 # antigen theme agnoster 
- #  antigen theme strug 
- antigen theme robbyrussell 
+# antigen theme strug 
+# antigen theme robbyrussell
+antigen theme romkatv/powerlevel10k
 
- antigen apply;
+antigen apply;
  
 
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
@@ -124,44 +133,51 @@ IPADDR=$(hostname -I | awk '{print $1}')
 
 # Example aliases
 # alias rm="rm -ri"
-  alias zshc="vim ~/.zshrc"
-  alias ohmyzsh="vim ~/.oh-my-zsh"
-  alias i3c="vim ~/.config/i3/config"
-  alias i3blocksc="vim ~/.config/i3/i3blocks.conf"
-  alias vimc="vim ~/.vimrc"
-# alias files="io.elementary.files"
+alias zshc="vim ~/.zshrc"
+alias ohmyzsh="vim ~/.oh-my-zsh"
+alias i3c="vim ~/.config/i3/config"
+alias i3blocksc="vim ~/.config/i3/i3blocks.conf"
+alias vimc="vim ~/.vimrc"
+#alias files="io.elementary.files"
 
-#  alias ls="lsd"
+if [ -x "$(command -v lsd)" ]; then
+  alias ls="lsd"
   alias lt="lsd --tree"
- alias cat="bat"
-# alias du="dust"
-# alias df="duf"
+fi
+if [ -x "$(command -v dust)" ]; then
+  alias du="dust"
+fi
+if [ -x "$(command -v duf)" ]; then
+  alias df="duf"
+fi
+if [ -x "$(command -v bat)" ]; then
+  #alias cat="bat"
+fi
 
-  alias uni="cd /mnt/d/College/Summer23/"
-  alias webdev="cd /mnt/d/vscode/webdev-challenges/Fullstack/"
-  alias java16="export JAVA_HOME=/home/hussein/Downloads/jdk-16.0.1/bin/;export PATH=$PATH:$JAVA_HOME"
-  alias vscp="cd /mnt/d/VSCodeProjects/"
-  alias nbp="cd /mnt/d/NetBeansProjects"
-  alias clp="cd /mnt/d/ClionProjects"
-  alias wsp="cd /mnt/d/WebstormProjects"
-  alias ideap="cd /mnt/d/IdeaProjects" 
-  alias ard="cd /mnt/d/Arduino/"
-  alias mia="cd /mnt/d/mia/"
-  alias backup="cd /mnt/d/Linux/Downloads/fresh_linux_install" 
-  alias rcv="cd /mnt/d/mia/robocon_computer-vision/" 
-  alias pi22_master="export ROS_MASTER_URI=http://192.168.1.150:11311/; export ROS_IP=$IPADDR"
-
-  alias sros='source /opt/ros/noetic/setup.zsh'
-  alias sros2='source /opt/ros/foxy/setup.zsh'
-  alias update="sudo apt update && sudo apt upgrade -y && sudo snap refresh"
+alias webdev="cd /mnt/d/vscode/webdev-challenges/Fullstack/"
+alias java16="export JAVA_HOME=/home/hussein/Downloads/jdk-16.0.1/bin/;export PATH=$PATH:$JAVA_HOME"
+alias vscp="cd /mnt/d/VSCodeProjects/"
+alias nbp="cd /mnt/d/NetBeansProjects"
+alias clp="cd /mnt/d/ClionProjects"
+alias wsp="cd /mnt/d/WebstormProjects"
+alias ideap="cd /mnt/d/IdeaProjects" 
+alias ard="cd /mnt/d/Arduino/"
+alias mia="cd /mnt/d/mia/"
+alias backup="cd /mnt/d/Linux/Downloads/fresh_linux_install" 
+alias work="/mnt/work"
 
 # PATH alias
- export uni='/mnt/d/College/Term7'
- export mia='/mnt/d/mia23'
- export rcv="/mnt/d/mia/mia22/robocon_computer-vision" 
- export rbc22="/mnt/d/mia/mia22/Robocon_22" 
+uni='/mnt/d/College/Term9'
+alias uni="cd $uni"
+export uni
 
 # bash ~/Downloads/pfetch-0.6.0/pfetch
+
+# Package manager
+alias q='apt search'
+alias i='sudo apt install'
+alias u="sudo apt update && sudo apt upgrade -y && sudo snap refresh"
+alias r='sudo apt remove'
 
 # Fun
 # figlet -t hussein
@@ -192,8 +208,12 @@ IPADDR=$(hostname -I | awk '{print $1}')
 # source ~/emsdk/emsdk_env.sh
 
 #export EDITOR="code"
+export EDITOR="vim"
 
 # Remove Background colors
 eval "$(dircolors -p | \
     sed 's/ 4[0-9];/ 01;/; s/;4[0-9];/;01;/g; s/;4[0-9] /;01 /' | \
     dircolors /dev/stdin)"
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

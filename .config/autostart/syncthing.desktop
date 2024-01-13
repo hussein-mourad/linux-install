@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/hussein/Applications/syncthing-linux-amd64-v1.27.0/syncthing --no-browser
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Syncthing
+Name=Syncthing
+Comment[en_US]=
+Comment=

@@ -1,0 +1,18 @@
+# Sources file built for nala
+
+deb http://ubuntu.lagis.at/ubuntu/ focal main restricted universe multiverse
+
+deb http://mirrors.coreix.net/ubuntu/ focal main restricted universe multiverse
+
+deb http://archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse
+
+deb http://mirror.eu-fr.kamatera.com/ubuntu/ focal main restricted universe multiverse
+
+deb http://ubuntu.ipacct.com/ubuntu/ focal main restricted universe multiverse
+
+deb http://ubuntu.mirror.true.nl/ubuntu/ focal main restricted universe multiverse
+
+deb http://ftp.uni-kl.de/pub/linux/ubuntu/ focal main restricted universe multiverse
+
+deb http://ubuntu.mirrors.omnilance.com/ubuntu/ focal main restricted universe multiverse
+

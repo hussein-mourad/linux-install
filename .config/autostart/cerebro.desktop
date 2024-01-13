@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=cerebro
+Comment=cerebrostartup script
+Exec=/opt/Cerebro/cerebro
+StartupNotify=false
+Terminal=false
+X-GNOME-Autostart-enabled=false

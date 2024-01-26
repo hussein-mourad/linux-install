@@ -19,3 +19,5 @@
 	directory = /mnt/work/qemu-vms/macOS-Simple-KVM/tools/dmg2img-src
 [core]
 	autocrlf = input
+[init]
+	defaultBranch = main

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=/mnt/d/Linux/Downloads/fresh_linux_install/backup.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Backup dotfiles
+Name=Backup dotfiles
+Comment[en_US]=
+Comment=

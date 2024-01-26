@@ -9,7 +9,7 @@
 UUID=c8d1349a-3285-4e5c-89f9-e8b0beea7f4f /               ext4    errors=remount-ro 0       1
 # /boot/efi was on /dev/nvme0n1p1 during installation
 /swapfile                                 none            swap    sw              0       0
+UUID=a22bf3da-d479-4211-a3c3-8553680c58a6 none swap sw 0 0
 UUID=DE13-F3A0 /boot/efi       vfat    umask=0077      0       1
 UUID=754708A84ED82F45 /mnt/d auto uid=1000,nodev,nofail,x-gvfs-show 0 0
-UUID=01DA218DDF409D30 /mnt/work auto uid=1000,nodev,nofail,x-gvfs-show 0 0
-UUID=a22bf3da-d479-4211-a3c3-8553680c58a6 none swap sw 0 0
+/dev/disk/by-uuid/01DA458BFEEB38D0 /mnt/work auto nosuid,nodev,nofail,x-gvfs-show 0 0
